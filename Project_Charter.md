@@ -2,11 +2,11 @@
 
 **# PROJECT CHARTER**
 
-# \<Version\>
+# Version 1.0
 
-# \<Date\>
+# 26/09/2023
 
-# \<Your Team Name\>
+# Wind Falcons
 
 **VERSION HISTORY**
 
@@ -14,7 +14,7 @@ _[Provide information on how the development and distribution of the Project Cha
 
 | **Version #** | **Implemented**** By **|** Revision ****Date** | **Approved**** By **|** Approval ****Date** | **Reason** |
 | --- | --- | --- | --- | --- | --- |
-| 1.0 | _\<Author name\>_ | _\<mm/dd/yy\>_ | _\<name\>_ | _\<mm/dd/yy\>_ | _\<reason\>_ |
+| 1.0 | _Andrii Provozin_ | _09/26/2023_ | _Ryan Dotzlaw_ | _09/26/2023_ | _Completed Part 5_ |
 |
  |
  |
@@ -39,9 +39,7 @@ _[Provide information on how the development and distribution of the Project Cha
 
 | **Name** | **Email** | **Period of being project manager** |
 | --- | --- | --- |
-| \<team member 1\> |
- |
- |
+| Andrii Provozin | provozia@myumanitoba.ca | 09/21/2023 – N/A |
 |
  |
  |
@@ -100,10 +98,10 @@ _[Provide information on how the development and distribution of the Project Cha
 [**APPENDIX A: REFERENCES**](#_41mghml)[**9**](#_41mghml)
 
 1.
-# **INTRODUCTION**
+# INTRODUCTION
 
   1.
-## **PURPOSE OF PROJECT CHARTER**
+## PURPOSE OF PROJECT CHARTER
 
 _[Provide the purpose of the project charter.]_
 
@@ -112,15 +110,15 @@ The _\<Project Name\>_ project charter documents and tracks the necessary inform
 The intended audience of the _\<Project Name\>_ project charter is the project sponsor and senior leadership.
 
 1.
-# **PROJECT AND PRODUCT OVERVIEW**
+# PROJECT AND PRODUCT OVERVIEW
 
 _[Typically, the description should answer who, what, when and where, in a concise manner. It should also state the estimated project duration (e.g., 18 months) and the estimated project budget (e.g., $1.5M)._
 
 1.
-# **JUSTIFICATION**
+# JUSTIFICATION
 
   1.
-## **OBJECTIVES**
+## OBJECTIVES
 
 [_identify the objectives using_ _**SMART (Specific, Measurable, Attainable, Relevant, Time-bound)**_]
 
@@ -131,7 +129,7 @@ The objectives of the _\<Project Name\>_ are as follows:
 - _[Add additional bullets as necessary]_
 
   1.
-## **HIGH-LEVEL REQUIREMENTS**
+## HIGH-LEVEL REQUIREMENTS
 
 The following table presents the requirements that the project's product, service or result must meet in order for the project objectives to be satisfied.
 
@@ -146,7 +144,7 @@ The following table presents the requirements that the project's product, servic
  |
 
   1.
-## **MAJOR DELIVERABLES**
+## MAJOR DELIVERABLES
 
 The following table presents the major deliverables that the project's product, service or result must meet in order for the project objectives to be satisfied.
 
@@ -161,22 +159,22 @@ The following table presents the major deliverables that the project's product, 
  |
 
   1.
-## **SCOPE**
+## SCOPE
 
 _[Describe the inclusive and exclusive boundaries of the project. Specifically address items that are out of scope.]_
 
 1.
-# **DURATION**
+# DURATION
 
   1.
-## **TIMELINE**
+## TIMELINE
 
 _[An example of a high-level timeline is provided below.]_
 
- ![Shape1](RackMultipart20230926-1-cy7nm2_html_7d2b41e441e4f21d.gif)
+ ![Shape1](RackMultipart20230926-1-yb9jnd_html_6aa4e0a9c43e7371.gif)
 
   1.
-## **EXECUTIVE MILESTONES**
+## EXECUTIVE MILESTONES
 
 _[Example: For CPIC major/tactical projects, these milestones could be used to complete the Funding Plan/Cost and Schedule section of the OMB Exhibit 300.]_
 
@@ -191,53 +189,59 @@ The table below lists the high-level Executive Milestones of the project and the
  |
 
 1.
-# **ASSUMPTIONS, CONSTRAINTS AND RISKS**
+# ASSUMPTIONS, CONSTRAINTS AND RISKS
 
   1.
-## **ASSUMPTIONS**
+## ASSUMPTIONS
 
 _[Example: The system is being developed to capture data from public health partners. One assumption is that data is entered electronically into the system.]_
 
 This section identifies the statements believed to be true and from which a conclusion was drawn to define this project charter.
 
-1. _[Insert description of the first assumption.]_
-2. _[Insert description of the second assumption.]_
+1. _Users of the online virtual phone system are expected to have access to dependable internet and cloud services in order to place and receive calls._
+2. _The billing software must correctly determine prices depending on call length, time of day, and calling plan. A crucial restriction is ensuring accuracy in billing calculations._
+3.
 
   1.
-## **CONSTRAINTS**
+## CONSTRAINTS
 
 _[Example: There might be time constraints on developing a system that is used to track data of highly infectious diseases like SARS.]_
 
 This section identifies any limitation that must be taken into consideration prior to the initiation of the project.
 
-1. _[Insert description of the first constraint.]_
-2. _[Insert description of the second constraint.]_
+1. The system needs to make sure that no phone numbers can start with a particular prefix that is used for advanced features. The available phone numbers are constrained by this restriction, which should be taken into account while designing the dialing plan.
+2. The billing software must correctly determine prices depending on call length, time of day, and calling plan. A crucial restriction is ensuring accuracy in billing calculations.
 
   1.
-## **RISKS**
+## RISKS
 
 _[Example: The risk of accessibility or unavailability of public health partners for obtaining requirements to develop a data collection system may delay project deliverables. A possible mitigation strategy might be to schedule requirement sessions with the partners as early as possible. List the risks that the project sponsor should be aware of before making a decision on funding the project, including risks of not funding the project.]_
 
 | **Risk** | **Mitigation** |
 | --- | --- |
+| The possibility of poor internet connectivity or cloud service disruptions could impair users' capacity to communicate by interfering with their ability to make and receive calls through the system. | Implement redundancies or backup communication systems to reduce the likelihood of service outages. |
+| --- | --- |
+| Errors in billing or conflicts with users run the danger of causing financial losses or client dispair. | Implement thorough testing and validation of the billing system to reduce errors and develop a transparent procedure for handling disputes. |
 |
  |
  |
-| --- | --- |
+|
+ |
+ |
 |
  |
  |
 
 1.
-# **PROJECT ORGANIZATION**
+# PROJECT ORGANIZATION
 
   1.
-## **STAKEHOLDERS (INTERNAL AND EXTERNAL)**
+## STAKEHOLDERS (INTERNAL AND EXTERNAL)
 
 _[Examples of stakeholders include an epidemiologist performing a behavioral research project and people in the field collecting data using a software application (the proposed project) to collect the data required for a behavioral research project.]_
 
   1.
-## **ROLES AND RESPONSIBILITIES**
+## ROLES AND RESPONSIBILITIES
 
 _[Depending on your project organization, you may modify the roles and responsibilities listed in the table below.] [You can put the project sponsor as TA] [Project manager could be the member take the role for this round.]_
 
@@ -251,7 +255,7 @@ This section describes the key roles supporting the project.
 | \<Name Orog\> | Developer | Person who perform the day-to-day development and maintenance of the project |
 
 1.
-# **PROJECT CHARTER APPROVAL**
+# PROJECT CHARTER APPROVAL
 
 The undersigned acknowledge they have reviewed the project charter and authorize and fund the _\<Project Name\>_ project. Changes to this project charter will be coordinated with and approved by the undersigned or their designated representatives.
 
