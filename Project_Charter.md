@@ -2,7 +2,7 @@
 
 **# PROJECT CHARTER**
 
-# Version 1.0
+# Version 1.1
 
 # 26/09/2023
 
@@ -15,7 +15,7 @@ _[Provide information on how the development and distribution of the Project Cha
 | **Version #** | **Implemented**** By **|** Revision ****Date** | **Approved**** By **|** Approval ****Date** | **Reason** |
 | --- | --- | --- | --- | --- | --- |
 | 1.0 | _Andrii Provozin_ | _09/26/2023_ | _Ryan Dotzlaw_ | _09/26/2023_ | _Completed Part 5_ |
-|
+| 1.1 | Ryan Dotzlaw | 09/26/2023 | Andrii Provozin | 09/26/2023| Completed Part 3|
  |
  |
  |
