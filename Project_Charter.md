@@ -177,17 +177,12 @@ Things that are out of scope include the following:
 *	Voicemail
 
 
-1.
 # DURATION
 
-  1.
 ## TIMELINE
 
-_[An example of a high-level timeline is provided below.]_
+ ![Shape1](4050-gp1-TIMELINE.png)
 
- ![Shape1](RackMultipart20230926-1-yb9jnd_html_6aa4e0a9c43e7371.gif)
-
-  1.
 ## EXECUTIVE MILESTONES
 
 _[Example: For CPIC major/tactical projects, these milestones could be used to complete the Funding Plan/Cost and Schedule section of the OMB Exhibit 300.]_
@@ -196,16 +191,18 @@ The table below lists the high-level Executive Milestones of the project and the
 
 | **Executive Milestones** | **Estimated Completion Timeframe** |
 | --- | --- |
-| _[Insert milestone information (e.g., Project planned and authorized to proceed)]_ | _[Insert completion timeframe (e.g., Two weeks after project concept is approved)]_ |
-| --- | --- |
-| _[Insert milestone information (e.g., Version 1 completed)]_ | _[Insert completion timeframe (e.g., Twenty-five weeks after requirements analysis is completed)]_ |
-| _[Add additional rows as necessary]_ |
- |
+| Project Planned and authorized to proceed. | Two weeks after project concept is approved.  |
+| Requirements Analysis Complete | Eight weeks after Project Initiation.|
+|Completion of Application Development|Six weeks after Requirements Analysis Completion.|
+|Completion of Back-end Server Development|Six weeks after Application Development Completion.|
+|Prototype Release|Two weeks after Completion of Application and Server Back-End Development|
+|Completion of System Console |Twelve weeks after Prototype Release.|
+|Completion of Payment System|Twenty weeks after System Console Completion|
+|System Testing Completed| Four weeks after Payment System Completion |
+|System Development Completed|Twelve weeks after System Testing Completion|
 
-1.
 # ASSUMPTIONS, CONSTRAINTS AND RISKS
 
-  1.
 ## ASSUMPTIONS
 
 _[Example: The system is being developed to capture data from public health partners. One assumption is that data is entered electronically into the system.]_
