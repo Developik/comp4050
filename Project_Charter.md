@@ -1,10 +1,10 @@
-**# ProCaller
+# **_ProCaller_**
 
-**# PROJECT CHARTER**
+**PROJECT CHARTER**
 
-# Version 1.1
+### Version 1.6
 
-# 26/09/2023
+### 09/28/2023
 
 # Wind Falcons
 
@@ -25,53 +25,53 @@
 
 | **Name** | **Email** | **Period of being project manager** |
 | --- | --- | --- |
-| Andrii Provozin | provozia@myumanitoba.ca | 09/21/2023 – N/A |
+| Andrii Provozin | provozia@myumanitoba.ca | 09/21/2023 – 09/29/2023 |
 |
 
 
 **TABLE OF CONTENTS**
 
-[**1**](#_3whwml4) **INTRODUCTION**  **4**
+**1** **INTRODUCTION**  
+ 
+* 1.1 Purpose of Project Charter 
 
-[1.1](#_2bn6wsx)Purpose of Project Charter 4
+**2** **PROJECT AND PRODUCT OVERVIEW**  
 
-[**2**](#_qsh70q) **PROJECT AND PRODUCT OVERVIEW**  **4**
+**3** **JUSTIFICATION**  
 
-[**3**](#_tyjcwt) **JUSTIFICATION**  **4**
+* 3.1 Business Need 
 
-[3.1](#_3as4poj)Business Need 4
+* 3.2 Objectives 
 
-[3.2](#_1pxezwc)Objectives 4
+* 3.3 High-Level Requirements 
 
-[3.3](#_49x2ik5)High-Level Requirements 4
+* 3.4 Major Deliverables 
 
-[3.4](#_2p2csry)Major Deliverables 5
+* 3.5 Boundaries 
 
-[3.5](#_147n2zr)Boundaries 5
+**4** **DURATION**  
 
-[**4**](#_17dp8vu) **DURATION**  **5**
+* 4.1 Timeline 
 
-[4.1](#_3rdcrjn)Timeline 5
+* 4.2 Executive Milestones 
 
-[4.2](#_26in1rg)Executive Milestones 5
+**5** **ASSUMPTIONS, CONSTRAINTS AND RISKS**  
 
-[**5**](#_3o7alnk) **ASSUMPTIONS, CONSTRAINTS AND RISKS**  **5**
+* 5.1 Assumptions 
 
-[5.1](#_23ckvvd)Assumptions 5
+* 5.2 Constraints 
 
-[5.2](#_ihv636)Constraints 6
+* 5.3 Risks 
 
-[5.3](#_1ksv4uv)Risks 6
+**6** **PROJECT ORGANIZATION**  
 
-[**6**](#_32hioqz) **PROJECT ORGANIZATION**  **6**
+* 6.1 Stakeholders (Internal and External) 
 
-[6.1](#_1hmsyys)Stakeholders (Internal and External) 6
+* 6.2 Roles and Responsibilities 
 
-[6.2](#_z337ya)Roles and Responsibilities 6
+**7** **PROJECT CHARTER APPROVAL**  
 
-[**7**](#_3j2qqm3) **PROJECT CHARTER APPROVAL**  **8**
-
-[**APPENDIX A: REFERENCES**](#_41mghml)[**9**](#_41mghml)
+**APPENDIX A: REFERENCES**
 
 # INTRODUCTION
 
@@ -99,7 +99,7 @@ The objectives of the _Online Virtual Phone System_ are as follows:
 - _In 1 year, 2 months, design a GUI called the System Console, that allows specific members of a client company to control and monitor their own Online Virtual Phone System network. Performing actions like finding available phone numbers, setting phone number – (IP, Port) mapping, controlling calls per user, etc._
 - _In 1 year, 6 months, create a billing system that calculates the cost a client company owes based on the calls made by their users and their plan, among other factors. Additionally, the billing system needs to send a bill to the user at the end of the current billing period, and any Administrators should be able to view a client’s current bill using the System Console._
 
-  1.
+  
 ## HIGH-LEVEL REQUIREMENTS
 
 The following table presents the requirements that the project's product, service or result must meet in order for the project objectives to be satisfied.
@@ -191,7 +191,6 @@ This section identifies any limitation that must be taken into consideration pri
 | --- | --- |
 | The possibility of poor internet connectivity or cloud service disruptions could impair users' capacity to communicate by interfering with their ability to make and receive calls through the system. | Implement redundancies or backup communication systems to reduce the likelihood of service outages. |
 | Errors in billing or conflicts with users run the danger of causing financial losses or client dispair. | Implement thorough testing and validation of the billing system to reduce errors and develop a transparent procedure for handling disputes. |
-|
   
 
 
@@ -201,7 +200,7 @@ This section identifies any limitation that must be taken into consideration pri
 ## STAKEHOLDERS (INTERNAL AND EXTERNAL)
 
 #### Internal Stakeholders:
-  1. Project Sponsor: Pengfei He (TA).
+  1. Project Sponsor: Ryan Dotzlaw.
   2. Project Manager: Andrii Provozin.
   3. Development Team: Josh Sigurdson, Ikram Khan Shipon, Ryan Dotzlaw and Khush Patel.
 
@@ -216,7 +215,7 @@ This section describes the key roles supporting the project.
 
 | **Name & Organization** | **Project Role** | **Project Responsibilities** |
 | --- | --- | --- |
-| Pengfei He, Universit of Manitoba | Project Sponsor | Phengfei takes on a central role in our project by defining its goals, objectives, scope, and timeline. They are also responsible for securing the necessary funding. Phengfei also provides guidance to ensure that our project aligns effectively with its intended objectives.|
+| Ryan Dotzlaw, Wind Falcons | Project Sponsor | Ryan takes on a central role in our project by defining its goals, objectives, scope, and timeline. They are also responsible for securing the necessary funding. Ryan also provides guidance to ensure that our project aligns effectively with its intended objectives.|
 | Andrii Provozin, Wind Falcons | Project Manager | Andrii takes on the role of scheduling meetings and maintaining project documentation. He holds specific accountability for managing the project within the approved constraints and is responsible for reviewing all work completed by the team. |
 | Ryan Dotzlaw, Wind Falcons  | Developer | Ryan is in charge of enhancing the user interface and user experience (UI/UX) for both the mobile and desktop applications.|
 | Ikram Khan Shipon, Wind Falcons | Developer | Ikram's tasks include developing tools for administrators for tracking and moderating the activities of users, as well as developing call logs system for users.  |
@@ -231,7 +230,6 @@ The undersigned acknowledge they have reviewed the project charter and authorize
 | Signature: _Andrii Provozin_ |
  | Date: _09/28/2023_|
  |
-| --- | --- | --- | --- |
 | Print Name: _Andrii Provozin_|
  |
  |
@@ -245,22 +243,6 @@ The undersigned acknowledge they have reviewed the project charter and authorize
  |
  |
 
-| Signature: _Pengfei He_|
- | Date: _09/28/2023_|
- |
-| --- | --- | --- | --- |
-| Print Name: Pengfei He |
- |
- |
- |
-| Title: Customer|
- |
- |
- |
-| Role: Project Sponsor|
- |
- |
- |
 
 
 **APPENDIX A: REFERENCES**
