@@ -227,7 +227,6 @@ This section describes the key roles supporting the project.
 
 The undersigned acknowledge they have reviewed the project charter and authorize and fund the _ProCaller_ project. Changes to this project charter will be coordinated with and approved by the undersigned or their designated representatives.
 
-_[List the individuals whose signatures are desired. Examples of such individuals are Business Steward, Project Manager or Project Sponsor. Add additional lines for signature as necessary. Although signatures are desired, they are not always required to move forward with the practices outlined within this document.]_
 
 | Signature: _Andrii Provozin_ |
  | Date: _09/28/2023_|
