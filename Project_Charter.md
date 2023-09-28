@@ -246,39 +246,23 @@ _[List the individuals whose signatures are desired. Examples of such individual
  |
  |
 
-| Signature: |
- | Date: |
+| Signature: _Pengfei He_|
+ | Date: _09/28/2023_|
  |
 | --- | --- | --- | --- |
-| Print Name: |
+| Print Name: Pengfei He |
  |
  |
  |
-| Title: |
+| Title: Customer|
  |
  |
  |
-| Role: |
+| Role: Project Sponsor|
  |
  |
  |
 
-| Signature: |
- | Date: |
- |
-| --- | --- | --- | --- |
-| Print Name: |
- |
- |
- |
-| Title: |
- |
- |
- |
-| Role: |
- |
- |
- |
 
 **APPENDIX A: REFERENCES**
 
