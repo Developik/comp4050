@@ -1,4 +1,4 @@
-**# _\<PROJECT NAME\>_**
+**# ProCaller
 
 **# PROJECT CHARTER**
 
@@ -16,7 +16,7 @@ _[Provide information on how the development and distribution of the Project Cha
 | --- | --- | --- | --- | --- | --- |
 | 1.0 | _Andrii Provozin_ | _09/26/2023_ | _Ryan Dotzlaw_ | _09/26/2023_ | _Completed Part 5_ |
 |
- |
+ | 1.2 | _Ikram Khan Shipon_ | _09/27/2023_ | _Andrii Provozin_ |  _09/28/2023_ | _Added part 2 and name of the project_ |
  |
  |
  |
@@ -105,16 +105,17 @@ _[Provide information on how the development and distribution of the Project Cha
 
 _[Provide the purpose of the project charter.]_
 
-The _\<Project Name\>_ project charter documents and tracks the necessary information required by decision maker(s) to approve the project for funding. The project charter should include the needs, scope, justification, and resource commitment as well as the project's sponsor(s) decision to proceed or not to proceed with the project. It is created during the Initiating Phase of the project.
+The _ProCaller_ project charter documents and tracks the necessary information required by decision maker(s) to approve the project for funding. The project charter should include the needs, scope, justification, and resource commitment as well as the project's sponsor(s) decision to proceed or not to proceed with the project. It is created during the Initiating Phase of the project.
 
 The intended audience of the _\<Project Name\>_ project charter is the project sponsor and senior leadership.
 
 1.
 # PROJECT AND PRODUCT OVERVIEW
 
-_[Typically, the description should answer who, what, when and where, in a concise manner. It should also state the estimated project duration (e.g., 18 months) and the estimated project budget (e.g., $1.5M)._
+_ProCaller_ is an online phone system that uses the internet to place virtual calls between users anytime. It's primary users will be business employees who can make and receive calls using an installed app on desktop, laptop or a  mobile phone. Each device connected to the system will have a unique phone number assigned to it that can be used to make and receive calls.
 
-1.
+The estimated time for this project is 18 months with an estimated budget of $1.5M.
+
 # JUSTIFICATION
 
   1.
