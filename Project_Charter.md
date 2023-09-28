@@ -24,7 +24,7 @@ _[Provide information on how the development and distribution of the Project Cha
  |
  |
  |
-|
+| 1.4 | _Khush Patel_ | _09/27/2023_ |  | | _Completed Part 6_ |
  |
  |
  |
@@ -246,15 +246,23 @@ _[Example: The risk of accessibility or unavailability of public health partners
  |
  |
 
-1.
+
 # PROJECT ORGANIZATION
 
-  1.
 ## STAKEHOLDERS (INTERNAL AND EXTERNAL)
 
-_[Examples of stakeholders include an epidemiologist performing a behavioral research project and people in the field collecting data using a software application (the proposed project) to collect the data required for a behavioral research project.]_
 
-  1.
+
+#### Internal Stakeholders:
+  1. Project Sponsor: Pengfei He (TA).
+  2. Project Manager: Andrii Provozin.
+  3. Development Team: Josh Sigurdson, Ikram Khan Shipon, Ryan Dotzlaw and Khush Patel.
+
+#### External Stakeholders:
+  1. Customer: Pengfei He's company's primary customers are the end-users of the virtual phone system.
+  2. Customer Support: An outsourced customer support technician who provides technical support and assistance to customers using the virtual phone system.
+
+
 ## ROLES AND RESPONSIBILITIES
 
 _[Depending on your project organization, you may modify the roles and responsibilities listed in the table below.] [You can put the project sponsor as TA] [Project manager could be the member take the role for this round.]_
@@ -263,10 +271,12 @@ This section describes the key roles supporting the project.
 
 | **Name & Organization** | **Project Role** | **Project Responsibilities** |
 | --- | --- | --- |
-| \<Name\>\<Org\> | Project Sponsor | Person responsible for acting as the project's champion and providing direction and support to the team. In the context of this document, this person approves the request for funding, approves the project scope represented in this document, and sets the priority of the project relative to other projects in his/her area of responsibility. |
-| --- | --- | --- |
-| \<Name\>\<Org\> | Project Manager (This could include a Contractor Project Manager or an FTE Project Manager) | Person who performs the day-to-day management of the project and has specific accountability for managing the project within the approved constraints of scope, quality, time and cost, to deliver the specified requirements, deliverables and customer satisfaction. |
-| \<Name Orog\> | Developer | Person who perform the day-to-day development and maintenance of the project |
+| Pengfei He, Universit of Manitoba | Project Sponsor | Phengfei takes on a central role in our project by defining its goals, objectives, scope, and timeline. They are also responsible for securing the necessary funding. Phengfei also provides guidance to ensure that our project aligns effectively with its intended objectives.|
+| Andrii Provozin, Wind Falcons | Project Manager | Andrii takes on the role of scheduling meetings and maintaining project documentation. He holds specific accountability for managing the project within the approved constraints and is responsible for reviewing all work completed by the team. |
+| Ryan Dotzlaw, Wind Falcons  | Developer | Ryan is in charge of enhancing the user interface and user experience (UI/UX) for both the mobile and desktop applications.|
+| Ikram Khan Shipon, Wind Falcons | Developer | Ikram's tasks include developing tools for administrators for tracking and moderating the activities of users, as well as developing call logs system for users.  |
+| Josh Sigurdson, Wind Falcons | Developer | Josh is responsible for developing the database system and integrating it with the application.  |
+| Khush Patel, Wind Falcons | Developer | Khush is responsible for implementing the seamless routing system of calls. |
 
 1.
 # PROJECT CHARTER APPROVAL
