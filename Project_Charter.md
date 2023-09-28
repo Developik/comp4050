@@ -245,7 +245,7 @@ _[Example: The risk of accessibility or unavailability of public health partners
   3. Development Team: Josh Sigurdson, Ikram Khan Shipon, Ryan Dotzlaw and Khush Patel.
 
 #### External Stakeholders:
-  1. Customer: As the primary customer, Pengfei He's company is the end-user of the virtual phone system.
+  1. Customer: Pengfei He's company's primary customers are the end-users of the virtual phone system.
   2. Customer Support: An outsourced customer support technician who provides technical support and assistance to customers using the virtual phone system.
 
 
