@@ -15,16 +15,12 @@ _[Provide information on how the development and distribution of the Project Cha
 | **Version #** | **Implemented**** By **|** Revision ****Date** | **Approved**** By **|** Approval ****Date** | **Reason** |
 | --- | --- | --- | --- | --- | --- |
 | 1.0 | _Andrii Provozin_ | _09/26/2023_ | _Ryan Dotzlaw_ | _09/26/2023_ | _Completed Part 5_ |
-| 1.1 | Josh Sigurdson | 09/26/2023 | Andrii Provozin | 09/26/2023 | Completed Part 6 |
+| 1.1 | Josh Sigurdson | 09/26/2023 | Andrii Provozin | 09/26/2023 | Completed Part 4 |
 | 1.2 | Ryan Dotzlaw | 09/26/2023 | Andrii Provozin | 09/26/2023| Completed Part 3|
 | 1.3 | _Ikram Khan Shipon_ | _09/27/2023_ | _Andrii Provozin_ |  _09/28/2023_ | _Added part 2 and name of the project_ |
- |
- |
- |
- |
- |
- |
-| 1.4 | _Khush Patel_ | _09/27/2023_ |  | | _Completed Part 6_ |
+| 1.4 | _Khush Patel_ | _09/27/2023_ | Andrii Provozin | 09/28/2023 | _Completed Part 6_ |
+| 1.5 | _Andrii Provozin_ | _09/27/2023_ | Khush Patel | 09/28/2023 | Fixes of Project look and extra character removal |
+
  |
  |
  |
@@ -99,10 +95,8 @@ _[Provide information on how the development and distribution of the Project Cha
 
 [**APPENDIX A: REFERENCES**](#_41mghml)[**9**](#_41mghml)
 
-1.
 # INTRODUCTION
 
-  1.
 ## PURPOSE OF PROJECT CHARTER
 
 _[Provide the purpose of the project charter.]_
@@ -111,7 +105,6 @@ The _ProCaller_ project charter documents and tracks the necessary information r
 
 The intended audience of the _\<Project Name\>_ project charter is the project sponsor and senior leadership.
 
-1.
 # PROJECT AND PRODUCT OVERVIEW
 
 _ProCaller_ is an online phone system that uses the internet to place virtual calls between users anytime. It's primary users will be business employees who can make and receive calls using an installed app on desktop, laptop or a  mobile phone. Each device connected to the system will have a unique phone number assigned to it that can be used to make and receive calls.
@@ -120,7 +113,6 @@ The estimated time for this project is 18 months with an estimated budget of $1.
 
 # JUSTIFICATION
 
-  1.
 ## OBJECTIVES
 
 [_identify the objectives using_ _**SMART (Specific, Measurable, Attainable, Relevant, Time-bound)**_]
@@ -143,8 +135,6 @@ The following table presents the requirements that the project's product, servic
 | 2 |	Allow Administrators to monitor and moderate the network of users with the System Console.|
 | 3 |	The billing software charges users based on their use and prevents them from using the system if they don’t pay for it. |
 
-
-  1.
 ## MAJOR DELIVERABLES
 
 The following table presents the major deliverables that the project's product, service or result must meet in order for the project objectives to be satisfied.
@@ -156,8 +146,6 @@ The following table presents the major deliverables that the project's product, 
 |System Console|The GUI that allows Administrators to moderate and monitor the Online Virtual Phone System.|
 |Billing System|Integrates with the Backend Server and the System Console to calculate a user’s bill and make it available to see for Administrators. Additionally, it should contact users with their bill at the end of the current billing period and deny them system access if they fail to pay it.|
 
-
-  1.
 ## SCOPE
 
 Things that are in scope include the following:
@@ -214,9 +202,7 @@ This section identifies the statements believed to be true and from which a conc
 
 1. _Users of the online virtual phone system are expected to have access to dependable internet and cloud services in order to place and receive calls._
 2. _The billing software must correctly determine prices depending on call length, time of day, and calling plan. A crucial restriction is ensuring accuracy in billing calculations._
-3.
 
-  1.
 ## CONSTRAINTS
 
 _[Example: There might be time constraints on developing a system that is used to track data of highly infectious diseases like SARS.]_
@@ -226,7 +212,6 @@ This section identifies any limitation that must be taken into consideration pri
 1. The system needs to make sure that no phone numbers can start with a particular prefix that is used for advanced features. The available phone numbers are constrained by this restriction, which should be taken into account while designing the dialing plan.
 2. The billing software must correctly determine prices depending on call length, time of day, and calling plan. A crucial restriction is ensuring accuracy in billing calculations.
 
-  1.
 ## RISKS
 
 _[Example: The risk of accessibility or unavailability of public health partners for obtaining requirements to develop a data collection system may delay project deliverables. A possible mitigation strategy might be to schedule requirement sessions with the partners as early as possible. List the risks that the project sponsor should be aware of before making a decision on funding the project, including risks of not funding the project.]_
@@ -250,8 +235,6 @@ _[Example: The risk of accessibility or unavailability of public health partners
 # PROJECT ORGANIZATION
 
 ## STAKEHOLDERS (INTERNAL AND EXTERNAL)
-
-
 
 #### Internal Stakeholders:
   1. Project Sponsor: Pengfei He (TA).
@@ -278,7 +261,6 @@ This section describes the key roles supporting the project.
 | Josh Sigurdson, Wind Falcons | Developer | Josh is responsible for developing the database system and integrating it with the application.  |
 | Khush Patel, Wind Falcons | Developer | Khush is responsible for implementing the seamless routing system of calls. |
 
-1.
 # PROJECT CHARTER APPROVAL
 
 The undersigned acknowledge they have reviewed the project charter and authorize and fund the _\<Project Name\>_ project. Changes to this project charter will be coordinated with and approved by the undersigned or their designated representatives.
