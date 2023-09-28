@@ -2,7 +2,7 @@
 
 **# PROJECT CHARTER**
 
-# Version 1.0
+# Version 1.1
 
 # 26/09/2023
 
@@ -15,7 +15,7 @@ _[Provide information on how the development and distribution of the Project Cha
 | **Version #** | **Implemented**** By **|** Revision ****Date** | **Approved**** By **|** Approval ****Date** | **Reason** |
 | --- | --- | --- | --- | --- | --- |
 | 1.0 | _Andrii Provozin_ | _09/26/2023_ | _Ryan Dotzlaw_ | _09/26/2023_ | _Completed Part 5_ |
-|
+| 1.1 | Ryan Dotzlaw | 09/26/2023 | Andrii Provozin | 09/26/2023| Completed Part 3|
  |
  |
  |
@@ -122,46 +122,60 @@ _[Typically, the description should answer who, what, when and where, in a conci
 
 [_identify the objectives using_ _**SMART (Specific, Measurable, Attainable, Relevant, Time-bound)**_]
 
-The objectives of the _\<Project Name\>_ are as follows:
+The objectives of the _Online Virtual Phone System_ are as follows:
 
-- _[Insert Objective 1]_
-- _[Insert Objective 2]_
-- _[Add additional bullets as necessary]_
+- _In 6 months, create an app that can be used on mobile devices and computers that allows users of the app to call other users, regardless of application platform, over the internet._
+- _In 8 months, create a backend server that routes the numbers dialed by a user to an (IP, Port) pair, connecting one user to another using the server as an intermediary. Additionally, the backend server needs to store users, and log call metadata (length, time, etc.) for determining the billing cost._
+- _In 1 year, 2 months, design a GUI called the System Console, that allows specific members of a client company to control and monitor their own Online Virtual Phone System network. Performing actions like finding available phone numbers, setting phone number – (IP, Port) mapping, controlling calls per user, etc._
+- _In 1 year, 6 months, create a billing system that calculates the cost a client company owes based on the calls made by their users and their plan, among other factors. Additionally, the billing system needs to send a bill to the user at the end of the current billing period, and any Administrators should be able to view a client’s current bill using the System Console._
 
   1.
 ## HIGH-LEVEL REQUIREMENTS
 
 The following table presents the requirements that the project's product, service or result must meet in order for the project objectives to be satisfied.
 
-| **Req. #** | **I Requirement Description** |
+| **Req. #** | **Requirement Description** |
 | --- | --- |
-|
- |
- |
-| --- | --- |
-|
- |
- |
+| 1 | 	Allow users to call each other over the internet with the App.|
+| 2 |	Allow Administrators to monitor and moderate the network of users with the System Console.|
+| 3 |	The billing software charges users based on their use and prevents them from using the system if they don’t pay for it. |
+
 
   1.
 ## MAJOR DELIVERABLES
 
 The following table presents the major deliverables that the project's product, service or result must meet in order for the project objectives to be satisfied.
 
-| **Major Deliverable** | **I Deliverable Description** |
+| **Major Deliverable** | **Deliverable Description** |
 | --- | --- |
-|
- |
- |
-| --- | --- |
-|
- |
- |
+|Application| The application used by clients to perform calls. Both the mobile, and computer applications.|
+|Backend Server|The backend server that routes calls, tracks logs and stores user data. By this point the Online Virtual Phone System should be capable of being used by two users to call each other.|
+|System Console|The GUI that allows Administrators to moderate and monitor the Online Virtual Phone System.|
+|Billing System|Integrates with the Backend Server and the System Console to calculate a user’s bill and make it available to see for Administrators. Additionally, it should contact users with their bill at the end of the current billing period and deny them system access if they fail to pay it.|
+
 
   1.
 ## SCOPE
 
-_[Describe the inclusive and exclusive boundaries of the project. Specifically address items that are out of scope.]_
+Things that are in scope include the following:
+*	Audio-Only Calls between users
+*	Ability to create outgoing calls and receive incoming calls on the app
+*	Allowing users to log into their accounts on the app
+*	Seamless routing of incoming calls to all of a user’s logged in apps, regardless of the platform
+*	Tracking Call Logs
+*	Functional application for mobile devices and computers
+*	Monitoring and Moderation software for the system
+*	Calculating user’s bills
+*	Informing users of their bills
+
+Things that are out of scope include the following:
+*	Video Calls between users
+*	Text chat between users
+*	Web-based application
+*	Recording calls
+*	Integration with other systems (pre-recorded messages, call menus)
+*	Voicemail
+
 
 1.
 # DURATION
