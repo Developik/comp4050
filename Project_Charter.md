@@ -2,7 +2,7 @@
 
 **# PROJECT CHARTER**
 
-# Version 1.1
+### Version 1.7
 
 # 26/09/2023
 
@@ -18,8 +18,10 @@ _[Provide information on how the development and distribution of the Project Cha
 | 1.1 | Josh Sigurdson | 09/26/2023 | Andrii Provozin | 09/26/2023 | Completed Part 4 |
 | 1.2 | Ryan Dotzlaw | 09/26/2023 | Andrii Provozin | 09/26/2023| Completed Part 3|
 | 1.3 | _Ikram Khan Shipon_ | _09/27/2023_ | _Andrii Provozin_ |  _09/28/2023_ | _Added part 2 and name of the project_ |
-| 1.4 | _Khush Patel_ | _09/27/2023_ | Andrii Provozin | 09/28/2023 | _Completed Part 6_ |
-| 1.5 | _Andrii Provozin_ | _09/27/2023_ | Khush Patel | 09/28/2023 | Fixes of Project look and extra character removal |
+| 1.4 | _Khush Patel_ | _09/27/2023_ | _Andrii Provozin_ | _09/28/2023_ | _Completed Part 6_ |
+| 1.5 | _Andrii Provozin_ | _09/27/2023_ | _Khush Patel_ | _09/28/2023_ | _Fixes of Project look and extra character removal_ |
+| 1.6 | _Khush Patel_ | _09/28/2023_ | _Andrii Provozin_ | _09/28/2023_ | _Final Changes and project charter approval_ |
+| 1.7 | _Andrii Provozin_ | _09/28/2023_ | _Khush Patel_ | _09/28/2023_ | _Final Changes and project charter approval_ |
 
  |
  |
@@ -201,7 +203,9 @@ _[Example: The system is being developed to capture data from public health part
 This section identifies the statements believed to be true and from which a conclusion was drawn to define this project charter.
 
 1. _Users of the online virtual phone system are expected to have access to dependable internet and cloud services in order to place and receive calls._
-2. _The billing software must correctly determine prices depending on call length, time of day, and calling plan. A crucial restriction is ensuring accuracy in billing calculations._
+2. _Only one administrator can access the system at a time._
+3. _Both clients have initiating the call have our app installed on their devices_. 
+4. _Administrators acquired other required permissions to make changes to user's plan (legal right to change the plan, approval from the manager, etc.)_.
 
 ## CONSTRAINTS
 
@@ -211,6 +215,10 @@ This section identifies any limitation that must be taken into consideration pri
 
 1. The system needs to make sure that no phone numbers can start with a particular prefix that is used for advanced features. The available phone numbers are constrained by this restriction, which should be taken into account while designing the dialing plan.
 2. The billing software must correctly determine prices depending on call length, time of day, and calling plan. A crucial restriction is ensuring accuracy in billing calculations.
+3. The system should be capable of keeping user records should be retained indefinitely, so storage auto-scaling should be taken into consideration.
+4. Client should be connecting to the server via sockets.
+5. System should have database schema set up in a way that would allow fetching any user's bill for any billing period. 
+
 
 ## RISKS
 
@@ -219,17 +227,12 @@ _[Example: The risk of accessibility or unavailability of public health partners
 | **Risk** | **Mitigation** |
 | --- | --- |
 | The possibility of poor internet connectivity or cloud service disruptions could impair users' capacity to communicate by interfering with their ability to make and receive calls through the system. | Implement redundancies or backup communication systems to reduce the likelihood of service outages. |
-| --- | --- |
-| Errors in billing or conflicts with users run the danger of causing financial losses or client dispair. | Implement thorough testing and validation of the billing system to reduce errors and develop a transparent procedure for handling disputes. |
-|
- |
- |
-|
- |
- |
-|
- |
- |
+| Errors in counting calls, billing or other conflicts with users run the danger of causing financial losses or client dispair. | Implement thorough testing and validation of the billing system to reduce errors and develop a transparent procedure for handling disputes. |
+| Multiple administrators can log into the system at the same time, so if operations are not atomic it could corrupt the data. | Implement the database design where save operations are atomic. | 
+| Conflict in priorities of requests between call processing and software administration. | Make a table with priorities defined for each known operation before starting to implement it. |
+| Attacker acquiring access to one of the administrator accounts and corrupting data to cause damage. | Implement additional security measures, like MFA (Multi factor authentification).
+
+
 
 
 # PROJECT ORGANIZATION
@@ -326,7 +329,13 @@ The following table summarizes the documents referenced in this document.
 
 | **Document Name and Version** | **Description** | **Location** |
 | --- | --- | --- |
-| _\<Document Name and Version Number\>_ | _[Provide description of the document]_ | _\<URL or Network path where document is located\>_ |
+| Project_Charter 1.7| Documentation for tracks the necessary information required by decision makers to approve the project for funding.| [Introduction](#introduction) |
+| Project_Charter 1.7| Documentation for tracks the necessary information required by decision makers to approve the project for funding.| [Project](#project-and-product-overview) |
+| Project_Charter 1.7| Documentation for tracks the necessary information required by decision makers to approve the project for funding.| [Justification](#justification) |
+| Project_Charter 1.7| Documentation for tracks the necessary information required by decision makers to approve the project for funding.| [Duration](#duration) |
+| Project_Charter 1.7| Documentation for tracks the necessary information required by decision makers to approve the project for funding.| [Assumptions-constraints-and-risks](#assumptions-constraints-and-risks) |
+| Project_Charter 1.7| Documentation for tracks the necessary information required by decision makers to approve the project for funding.| [Project-organization](#project-organization) |
+
 
 s
 
