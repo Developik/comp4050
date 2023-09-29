@@ -1,111 +1,85 @@
-**# ProCaller
+# **_ProCaller_**
 
-**# PROJECT CHARTER**
+**PROJECT CHARTER**
 
 ### Version 1.7
 
-# 26/09/2023
+### 09/28/2023
 
 # Wind Falcons
 
 **VERSION HISTORY**
 
-_[Provide information on how the development and distribution of the Project Charter up to the final point of approval was controlled and tracked. Use the table below to provide the version number, the author implementing the version, the date of the version, the name of the person approving the version, the date that particular version was approved, and a brief description of the reason for creating the revised version.]_
 
-| **Version #** | **Implemented**** By **|** Revision ****Date** | **Approved**** By **|** Approval ****Date** | **Reason** |
+| **Version #** | **Implemented** **By**|**Revision** **Date** | **Approved**** By **|**Approval** **Date** | **Reason** |
 | --- | --- | --- | --- | --- | --- |
 | 1.0 | _Andrii Provozin_ | _09/26/2023_ | _Ryan Dotzlaw_ | _09/26/2023_ | _Completed Part 5_ |
-| 1.1 | Josh Sigurdson | 09/26/2023 | Andrii Provozin | 09/26/2023 | Completed Part 4 |
-| 1.2 | Ryan Dotzlaw | 09/26/2023 | Andrii Provozin | 09/26/2023| Completed Part 3|
+| 1.1 | _Josh Sigurdson_ | _09/26/2023_ | _Andrii Provozin_ | _09/26/2023_ | _Completed Part 4_ |
+| 1.2 | _Ryan Dotzlaw_ | _09/26/2023_ | _Andrii Provozin_ | _09/26/2023_| _Completed Part 3_|
 | 1.3 | _Ikram Khan Shipon_ | _09/27/2023_ | _Andrii Provozin_ |  _09/28/2023_ | _Added part 2 and name of the project_ |
 | 1.4 | _Khush Patel_ | _09/27/2023_ | _Andrii Provozin_ | _09/28/2023_ | _Completed Part 6_ |
 | 1.5 | _Andrii Provozin_ | _09/27/2023_ | _Khush Patel_ | _09/28/2023_ | _Fixes of Project look and extra character removal_ |
 | 1.6 | _Khush Patel_ | _09/28/2023_ | _Andrii Provozin_ | _09/28/2023_ | _Final Changes and project charter approval_ |
 | 1.7 | _Andrii Provozin_ | _09/28/2023_ | _Khush Patel_ | _09/28/2023_ | _Final Changes and project charter approval_ |
 
- |
- |
- |
- |
- |
- |
-|
- |
- |
- |
- |
- |
- |
 
 | **Name** | **Email** | **Period of being project manager** |
 | --- | --- | --- |
-| Andrii Provozin | provozia@myumanitoba.ca | 09/21/2023 – N/A |
+| Andrii Provozin | provozia@myumanitoba.ca | 09/21/2023 – 09/29/2023 |
 |
- |
- |
- |
-|
- |
- |
- |
-|
- |
- |
- |
+
 
 **TABLE OF CONTENTS**
 
-[**1**](#_3whwml4) **INTRODUCTION**  **4**
+**1** **INTRODUCTION**  
+ 
+* 1.1 Purpose of Project Charter 
 
-[1.1](#_2bn6wsx)Purpose of Project Charter 4
+**2** **PROJECT AND PRODUCT OVERVIEW**  
 
-[**2**](#_qsh70q) **PROJECT AND PRODUCT OVERVIEW**  **4**
+**3** **JUSTIFICATION**  
 
-[**3**](#_tyjcwt) **JUSTIFICATION**  **4**
+* 3.1 Business Need 
 
-[3.1](#_3as4poj)Business Need 4
+* 3.2 Objectives 
 
-[3.2](#_1pxezwc)Objectives 4
+* 3.3 High-Level Requirements 
 
-[3.3](#_49x2ik5)High-Level Requirements 4
+* 3.4 Major Deliverables 
 
-[3.4](#_2p2csry)Major Deliverables 5
+* 3.5 Boundaries 
 
-[3.5](#_147n2zr)Boundaries 5
+**4** **DURATION**  
 
-[**4**](#_17dp8vu) **DURATION**  **5**
+* 4.1 Timeline 
 
-[4.1](#_3rdcrjn)Timeline 5
+* 4.2 Executive Milestones 
 
-[4.2](#_26in1rg)Executive Milestones 5
+**5** **ASSUMPTIONS, CONSTRAINTS AND RISKS**  
 
-[**5**](#_3o7alnk) **ASSUMPTIONS, CONSTRAINTS AND RISKS**  **5**
+* 5.1 Assumptions 
 
-[5.1](#_23ckvvd)Assumptions 5
+* 5.2 Constraints 
 
-[5.2](#_ihv636)Constraints 6
+* 5.3 Risks 
 
-[5.3](#_1ksv4uv)Risks 6
+**6** **PROJECT ORGANIZATION**  
 
-[**6**](#_32hioqz) **PROJECT ORGANIZATION**  **6**
+* 6.1 Stakeholders (Internal and External) 
 
-[6.1](#_1hmsyys)Stakeholders (Internal and External) 6
+* 6.2 Roles and Responsibilities 
 
-[6.2](#_z337ya)Roles and Responsibilities 6
+**7** **PROJECT CHARTER APPROVAL**  
 
-[**7**](#_3j2qqm3) **PROJECT CHARTER APPROVAL**  **8**
-
-[**APPENDIX A: REFERENCES**](#_41mghml)[**9**](#_41mghml)
+**APPENDIX A: REFERENCES**
 
 # INTRODUCTION
 
 ## PURPOSE OF PROJECT CHARTER
 
-_[Provide the purpose of the project charter.]_
-
 The _ProCaller_ project charter documents and tracks the necessary information required by decision maker(s) to approve the project for funding. The project charter should include the needs, scope, justification, and resource commitment as well as the project's sponsor(s) decision to proceed or not to proceed with the project. It is created during the Initiating Phase of the project.
 
-The intended audience of the _\<Project Name\>_ project charter is the project sponsor and senior leadership.
+The intended audience of the _ProCaller_ project charter is the project sponsor and senior leadership.
 
 # PROJECT AND PRODUCT OVERVIEW
 
@@ -117,7 +91,6 @@ The estimated time for this project is 18 months with an estimated budget of $1.
 
 ## OBJECTIVES
 
-[_identify the objectives using_ _**SMART (Specific, Measurable, Attainable, Relevant, Time-bound)**_]
 
 The objectives of the _Online Virtual Phone System_ are as follows:
 
@@ -126,7 +99,7 @@ The objectives of the _Online Virtual Phone System_ are as follows:
 - _In 1 year, 2 months, design a GUI called the System Console, that allows specific members of a client company to control and monitor their own Online Virtual Phone System network. Performing actions like finding available phone numbers, setting phone number – (IP, Port) mapping, controlling calls per user, etc._
 - _In 1 year, 6 months, create a billing system that calculates the cost a client company owes based on the calls made by their users and their plan, among other factors. Additionally, the billing system needs to send a bill to the user at the end of the current billing period, and any Administrators should be able to view a client’s current bill using the System Console._
 
-  1.
+  
 ## HIGH-LEVEL REQUIREMENTS
 
 The following table presents the requirements that the project's product, service or result must meet in order for the project objectives to be satisfied.
@@ -178,7 +151,6 @@ Things that are out of scope include the following:
 
 ## EXECUTIVE MILESTONES
 
-_[Example: For CPIC major/tactical projects, these milestones could be used to complete the Funding Plan/Cost and Schedule section of the OMB Exhibit 300.]_
 
 The table below lists the high-level Executive Milestones of the project and their estimated completion timeframe.
 
@@ -198,7 +170,6 @@ The table below lists the high-level Executive Milestones of the project and the
 
 ## ASSUMPTIONS
 
-_[Example: The system is being developed to capture data from public health partners. One assumption is that data is entered electronically into the system.]_
 
 This section identifies the statements believed to be true and from which a conclusion was drawn to define this project charter.
 
@@ -209,7 +180,6 @@ This section identifies the statements believed to be true and from which a conc
 
 ## CONSTRAINTS
 
-_[Example: There might be time constraints on developing a system that is used to track data of highly infectious diseases like SARS.]_
 
 This section identifies any limitation that must be taken into consideration prior to the initiation of the project.
 
@@ -222,7 +192,6 @@ This section identifies any limitation that must be taken into consideration pri
 
 ## RISKS
 
-_[Example: The risk of accessibility or unavailability of public health partners for obtaining requirements to develop a data collection system may delay project deliverables. A possible mitigation strategy might be to schedule requirement sessions with the partners as early as possible. List the risks that the project sponsor should be aware of before making a decision on funding the project, including risks of not funding the project.]_
 
 | **Risk** | **Mitigation** |
 | --- | --- |
@@ -240,7 +209,7 @@ _[Example: The risk of accessibility or unavailability of public health partners
 ## STAKEHOLDERS (INTERNAL AND EXTERNAL)
 
 #### Internal Stakeholders:
-  1. Project Sponsor: Pengfei He (TA).
+  1. Project Sponsor: Ryan Dotzlaw.
   2. Project Manager: Andrii Provozin.
   3. Development Team: Josh Sigurdson, Ikram Khan Shipon, Ryan Dotzlaw and Khush Patel.
 
@@ -251,13 +220,11 @@ _[Example: The risk of accessibility or unavailability of public health partners
 
 ## ROLES AND RESPONSIBILITIES
 
-_[Depending on your project organization, you may modify the roles and responsibilities listed in the table below.] [You can put the project sponsor as TA] [Project manager could be the member take the role for this round.]_
-
 This section describes the key roles supporting the project.
 
 | **Name & Organization** | **Project Role** | **Project Responsibilities** |
 | --- | --- | --- |
-| Pengfei He, Universit of Manitoba | Project Sponsor | Phengfei takes on a central role in our project by defining its goals, objectives, scope, and timeline. They are also responsible for securing the necessary funding. Phengfei also provides guidance to ensure that our project aligns effectively with its intended objectives.|
+| Ryan Dotzlaw, Wind Falcons | Project Sponsor | Ryan takes on a central role in our project by defining its goals, objectives, scope, and timeline. They are also responsible for securing the necessary funding. Ryan also provides guidance to ensure that our project aligns effectively with its intended objectives.|
 | Andrii Provozin, Wind Falcons | Project Manager | Andrii takes on the role of scheduling meetings and maintaining project documentation. He holds specific accountability for managing the project within the approved constraints and is responsible for reviewing all work completed by the team. |
 | Ryan Dotzlaw, Wind Falcons  | Developer | Ryan is in charge of enhancing the user interface and user experience (UI/UX) for both the mobile and desktop applications.|
 | Ikram Khan Shipon, Wind Falcons | Developer | Ikram's tasks include developing tools for administrators for tracking and moderating the activities of users, as well as developing call logs system for users.  |
@@ -266,64 +233,29 @@ This section describes the key roles supporting the project.
 
 # PROJECT CHARTER APPROVAL
 
-The undersigned acknowledge they have reviewed the project charter and authorize and fund the _\<Project Name\>_ project. Changes to this project charter will be coordinated with and approved by the undersigned or their designated representatives.
+The undersigned acknowledge they have reviewed the project charter and authorize and fund the _ProCaller_ project. Changes to this project charter will be coordinated with and approved by the undersigned or their designated representatives.
 
-_[List the individuals whose signatures are desired. Examples of such individuals are Business Steward, Project Manager or Project Sponsor. Add additional lines for signature as necessary. Although signatures are desired, they are not always required to move forward with the practices outlined within this document.]_
 
-| Signature: |
- | Date: |
+| Signature: _Andrii Provozin_ |
+ | Date: _09/28/2023_|
  |
-| --- | --- | --- | --- |
-| Print Name: |
- |
- |
- |
-| Title: |
+| Print Name: _Andrii Provozin_|
  |
  |
  |
-| Role: |
+| Title: _Software Project Manger_|
+ |
+ |
+ |
+| Role: _Project Manager_|
  |
  |
  |
 
-| Signature: |
- | Date: |
- |
-| --- | --- | --- | --- |
-| Print Name: |
- |
- |
- |
-| Title: |
- |
- |
- |
-| Role: |
- |
- |
- |
 
-| Signature: |
- | Date: |
- |
-| --- | --- | --- | --- |
-| Print Name: |
- |
- |
- |
-| Title: |
- |
- |
- |
-| Role: |
- |
- |
- |
 
 **APPENDIX A: REFERENCES**
 
-_[Insert the name, version number, description, and physical location of any documents referenced in this document. Add rows to the table as necessary.]_
 
 The following table summarizes the documents referenced in this document.
 
@@ -337,6 +269,4 @@ The following table summarizes the documents referenced in this document.
 | Project_Charter 1.7| Documentation for tracks the necessary information required by decision makers to approve the project for funding.| [Project-organization](#project-organization) |
 
 
-s
 
-_[Insert appropriate Disclaimer(s)]_
