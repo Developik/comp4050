@@ -76,15 +76,13 @@ _This information may be provided by reference to an appendix or to another docu
 
 # 2. General Description
 
-_This section of the SRS should describe the general factors that affect 'the product and its requirements. It should be made clear that this section does not state specific requirements; it only makes those requirements easier to understand._
-
 ## 2.1 User Characteristics
 
-This subsection of the SRS should describe those general characteristics of the eventual users of the product that will affect the specific requirements. (See the IEEE Guide to SRS for more details).
+The characteristics of the eventual users of ProCaller are the callers and callees. These two stakeholders are those who wish to connect and speak through an online system rather than using classical telephone communication. The callees are users who have a need to receive phone calls via a single business phone number. These businesses (callees) can set up a business phone number and receive calls from their customers (callers). The callers can use the ProCaller from a desktop application or mobile phone to reach their desired business. These stakeholders are any business with the need to receive phone calls from their customers. The callers are any person who wishes to call a business.
 
 ## 2.2 Assumptions and Dependencies
 
-This subsection of the SRS should list each of the factors that affect the requirements stated in the SRS. These factors are not design constraints on the software but are, rather, any changes to them that can affect the requirements in the SRS. For example, an assumption might be that a specific operating system will be available on the hardware designated for the software product. If, in fact, the operating system is not available, the SRS would then have to change accordingly.
+The ProCaller desktop application will be developed to be used on any common personal computer operating system, namely, Mac and Windows. The ProCaller application will be developed to be used on any common mobile phone operating system, namely, Android and iOS. If any of these previously listed operating systems are not available the SRS will have to be changed accordingly. It is assumed any hardware the ProCaller application will be used on will have a microphone and speakers. ProCaller is dependent on the use of a functional audio input and output.
 
 # 3. Specific Requirements
 
