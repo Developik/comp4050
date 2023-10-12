@@ -110,29 +110,40 @@ The system shall display all the available components of the product to configur
 
 ## 3.2 Non-Functional Requirements
 
-Non-functional requirements may exist for the following attributes. Often these requirements must be achieved at a system-wide level rather than at a unit level. State the requirements in the following sections in measurable terms (e.g., 95% of transaction shall be processed in less than a second, system downtime may not exceed 1 minute per day, \> 30 day MTBF value, etc).
-
-This section describes non-functional features of the software project. Specify the requirements as user story.
+This section describes non-functional features of the software project.
 
 ### 3.2.1 Performance
 
-\< The product shall take initial load time depending on internet connection strength which also depends on the media from which the product is run.\>
+- The system shall take initial load time depending on internet connection strength which also depends on the media from which the system is run.
+
+- The system shall respond to any UI interaction within 200 milliseconds.
+
+- The system should handle a minimum of 1000 concurrent calls without any degradation in performance.
 
 ### 3.2.2 Reliability
 
-\< The system shall provide RAID V Disk Stripping on all database storage disks.\>
+- The system shall have a fault tolerant mechanism to allow continuous operation.
+
+- The system must maintain data integrity to ensure user data is accurate and consistent within the application.
 
 ### 3.2.3 Availability
 
-\< The system shall provide a contractual agreement with an internet service provider for T3 access with 99.9999% availability. \>
+- The system shall have 99.99% availability discounting any scheduled maintenance periods.
 
 ### 3.2.4 Security
 
-\< The system shall use secure sockets in all transactions that include any confidential customer information.
+- The system shall use secure sockets in all calls that include any confidential customer information.
 
-The system shall automatically log out all customers after a period of inactivity.\>
+- The system shall automatically log out all customers after a period of inactivity.
 
-## 3.2.5 Interfaces
+- All calls must be end-to-end ecnrypted between devices.
+
+### 3.2.5 Interfaces
+
+- The system must have an intuitive UI and must not exceed more than 15mins of training to setup and use.
+- The system should be compatible with laptops, desktops and any mobile devices.
+- The system must have a well-documented, fast and sucure API to integrate with third-party applications.
+
 
 ## 3.3 Design Constraints
 
