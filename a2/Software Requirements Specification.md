@@ -138,11 +138,16 @@ The system shall automatically log out all customers after a period of inactivit
 
 ## 3.4 Legal, Copyright, and Other Notices
 
+Copyright © 2023 Wind Falcons co. All Rights Reserved
+
 ## 3.5 Other Requirements
 
 Catchall section for any additional requirements.
 
 ## 4 Other Supporting Documents
+
+- [Project Readme](../README.md)
+- [Project Charter](../A1/Project_Charter.md)
 
 ## A. Appendices
 
