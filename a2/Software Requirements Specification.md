@@ -50,29 +50,63 @@
 
 # 1. Introduction
 
-[you may need to refine your scope/purpose defined in the project charter after eliciting requirements with stakeholder]
+This paper serves as a thorough Software Requirements Specification (SRS) for the creation of ProCaller, a virtual phone system for the internet. <br>
 
-The introduction to the Software Requirement Specification (SRS) document should provide an overview of the complete SRS document. While writing this document please remember that this document should contain all of the information needed by a software engineer to adequately design and implement the software product described by the requirements listed in this document. (Note: the following subsection annotates are largely taken from the IEEE Guide to SRS).
+ProCaller enables customers to make and receive calls through the internet, it aims to change communication removing the need to use the conventional landline connections. ProCaller offers an effective solution for both individuals and enterprises, with the capacity to use it on desktop and mobile platforms. <br>
+
+In the next parts, we will go into detail about the information related to the users and stakeholders, important assumptions and dependencies, as well as functional and non-functional components of the ProCaller system. This SRS will direct the project's software design, implementation, and testing to make sure the finished product satisfies the performance, reliability, security, and ui criteria. And that it aligns with the client's vision. <br>
+
+This document is a crucial tool that will serve as a set of specifications and a roadmap for the project managers, testing team, and developers who are working to complete the ProCaller project. 
 
 ## 1.1 Purpose
 
-_What is the purpose of this SRS and the (intended) audience for which it is written._
+The purpose of this SRS is the fulfill the following:
+
+- Specify the project's parameters and key components for the online virtual phone system.
+- Give precise definitions and descriptions of the important parts, procedures, and features of the system.
+- Provide a thorough reference for project development, directing software engineers, developers, and stakeholders over the course of the project.
+- Ensure that the client's expectations and the development team's understanding of the system's needs are aligned.
+
+The intended audience are: 
+
+- Software Development Team 
+- Project Manager
+- Project Owner
+- Testing Team
+- Business Department
 
 ## 1.2 Definitions, Acronyms, and Abbreviations
 
-_This subsection should provide the definitions of all terms, acronyms, and abbreviations required to properly interpret the SRS. This information may be provided by reference to one or more appendixes in the SRS or by reference to other documents._
+Acronyms and abbreviations definitions:
+
+Software Requirements Specification, or SRS
+
+- A document that provides a thorough description of the features and functionalities of a software project's requirements and specifications.
+
+User Interface, or UI
+
+- Users engage with the visual and interactive components of a software application to carry out activities. <br> 
+Example: Facebook web page.
+
+Application Programming Interface (API)
+
+- A set of guidelines and procedures that permit communication between various software programs. <br> Example: Twitter API, allows fetching data in JSON format.
+
+Design requirements, or D-requirements
+
+- Clear specifications that direct a software project's conception, execution, and testing.
+
+Operating System (OS):
+
+- Software that controls computer hardware and offers assistance to computer programs. <br> Example: Windows 11.
+
 
 ## 1.3 References
 
-_This subsection should:_
+| **Reference number** | **Document Title**|**Date** | **Author** | **Source** |
+| --- | --- | --- | --- | --- |
+| 1 | _Project Software Description_ | _09/01/2023_ | _Shaowei Wang_ | [Link](https://umanitoba-my.sharepoint.com/:w:/g/personal/shaowei_wang_umanitoba_ca/EX6PKNTuX1hGomL4NyNYSIcBHg5ImCFl2BPrVJnFbBWIsQ?e=prDfNs) |
 
-_(1) Provide a complete list of all documents referenced elsewhere in the SRS, or in a separate, specified document._
-
-_(2) Identify each document by title, report number - if applicable - date, and publishing organization._
-
-_(3) Specify the sources from which the references can be obtained._
-
-_This information may be provided by reference to an appendix or to another document._
 
 # 2. General Description
 
