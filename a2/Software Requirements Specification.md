@@ -147,7 +147,7 @@ Catchall section for any additional requirements.
 ## 4 Other Supporting Documents
 
 - [Project Readme](../README.md)
-- [Project Charter](../A1/Project_Charter.md)
+- [Project Charter](../a1/Project_Charter.md)
 
 ## A. Appendices
 
