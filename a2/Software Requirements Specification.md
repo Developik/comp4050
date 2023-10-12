@@ -151,6 +151,5 @@ Catchall section for any additional requirements.
 
 ## A. Appendices
 
-Appendices may be used to provide additional (and hopefully helpful) information. If present, the SRS should explicitly state whether the information contained within an appendix is to be considered as a part of the SRS's overall set of requirements.
-
-_Example Appendices could include (initial) conceptual documents for the software project, marketing materials, minutes of meetings with the customer(s), etc._
+- [Initial Project Concept Document](https://umanitoba-my.sharepoint.com/:w:/g/personal/shaowei_wang_umanitoba_ca/EX6PKNTuX1hGomL4NyNYSIcBHg5ImCFl2BPrVJnFbBWIsQ?rtime=S3yoVMvK20g)
+- [SRS Template](https://umanitoba-my.sharepoint.com/:w:/g/personal/shaowei_wang_umanitoba_ca/ER9IR-uOnnRPquKir7Fy1BIBQOT7YvxIEknOVjHbqnj7cQ?e=qQSWEK)
