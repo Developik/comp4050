@@ -136,13 +136,16 @@ The system shall automatically log out all customers after a period of inactivit
 
 ## 3.3 Design Constraints
 
+- The software should be designed and implemented in accordance with Wind Falcons coding and design standards.
+- The software requires a stable internet connection to function correctly.
+
 ## 3.4 Legal, Copyright, and Other Notices
 
 Copyright © 2023 Wind Falcons co. All Rights Reserved
 
 ## 3.5 Other Requirements
 
-Catchall section for any additional requirements.
+- The software should meet a professional standard of quality. 
 
 ## 4 Other Supporting Documents
 
@@ -151,5 +154,4 @@ Catchall section for any additional requirements.
 
 ## A. Appendices
 
-- [Initial Project Concept Document](https://umanitoba-my.sharepoint.com/:w:/g/personal/shaowei_wang_umanitoba_ca/EX6PKNTuX1hGomL4NyNYSIcBHg5ImCFl2BPrVJnFbBWIsQ?rtime=S3yoVMvK20g)
 - [SRS Template](https://umanitoba-my.sharepoint.com/:w:/g/personal/shaowei_wang_umanitoba_ca/ER9IR-uOnnRPquKir7Fy1BIBQOT7YvxIEknOVjHbqnj7cQ?e=qQSWEK)
