@@ -18,8 +18,11 @@
 
 | **Date** | **Description** | **Author** | **Comments** |
 | --- | --- | --- | --- |
-| \<date\> | \<Version 1\> | \<Your Name\> | \<First Revision\> |
-| ||||
+| _10/10/2023_ | _Version 1.0_ | _Josh Sigurdson_ | _Initial Set-up_ |
+| _10/10/2023_ | _Version 1.1_ | _Josh Sigurdson_ | _Completed Section 2_ |
+| _10/12/2023_ | _Version 1.2_ | _Ikram Khan Shipon_ | _Completed Sections 3.2.1 - 3.2.5_ |
+| _10/12/2023_ | _Version 1.3_ | _Andrii Provozin_ | _Completed Section 1_ |
+| _10/12/2023_ | _Version 1.4_ | _Khush Patel_ | _Completed Section 3.1_ |
 
 <div style="page-break-after: always;"></div>
 
@@ -34,6 +37,18 @@
   - [2.2 Assumptions and Dependencies](#22-assumptions-and-dependencies)
 - [3. Specific Requirements](#3-specific-requirements)
   - [3.1 Functional Requirements](#31-functional-requirements)
+    - [3.1.1 Call Notification](#311-call-notifications)
+      - [3.1.1.1 Incoming Call Notifications](#3111-incoming-call-notifications)
+      - [3.1.1.2 Missed Call Notifications](#3112-missed-call-notifications)
+      - [3.1.1.3 Busy Call Notifications](#3113-busy-call-notifications)
+      - [3.1.1.4 Decline Call Notifications](#3114-decline-call-notifications)
+    - [3.1.2 Call Handling](#312-call-handling)
+      - [3.1.2.1 Accepting Incoming Calls](#3121-accepting-incoming-calls)
+      - [3.1.2.2 Declining Incoming Calls](#3122-declining-incoming-calls)
+      - [3.1.2.3 Call Conferencing](#3123-call-conferencing)
+    - [3.1.3 Call Dialing](#313-call-dailing)
+      - [3.1.3.1 Dailing Unsaved Numbers](#3131-dialing-unsaved-numbers)
+      - [3.1.3.2 Dailing Saved Numbers](#3132-dialing-saved-numbers)
   - [3.2 Non-Functional Requirements](#32-non-functional-requirements)
     - [3.2.1 Performance](#321-performance)
     - [3.2.2 Reliability](#322-reliability)
@@ -124,23 +139,38 @@ This will be the largest and most important section of the SRS. The customer req
 
 ## 3.1 Functional Requirements
 
-This section describes specific features of the software project. Specify the requirements as user story.
+This section describes specific features of the software project.  
 
-…
+### 3.1.1 Call Notifications
 
-\<
+#### 3.1.1.1 Incoming Call Notifications
+- The system should notify the callee for all incoming calls.
+#### 3.1.1.2 Missed Call Notifications
+- The system should notify the callee for all the missed calls that occurred when the callee was engaged in another call or offline.
+#### 3.1.1.3 Busy Call Notifications
+- The system should notife caller if the callee is currently engaged in another call and cannot accept the incoming call.
+#### 3.1.1.4 Decline Call Notifications
+- The system should notify the caller if the callee declines the incoming call.
 
-Sell Configured to Ordered Products.
+### 3.1.2 Call Handling
 
-The system shall display all the products that can be configured.
+#### 3.1.2.1 Accepting Incoming Calls
+- The callee should have the ability to accept incoming calls.
+#### 3.1.2.2 Declining Incoming Calls
+- The callee should have the option to decline incoming calls, whether they are currently engaged in another call or in an idle state.
+#### 3.1.2.3 Call Conferencing
+- The callee should have the capability to merge an incoming call with their ongoing call, enabling conference call functionality.
 
-The system shall allow user to select the product to configure.
+### 3.1.3 Call Dailing
 
-The system shall display all the available components of the product to configure
+#### 3.1.3.1 Dialing Unsaved Numbers
+- The callee should have the capability to manually dial any phone number.
+#### 3.1.3.2 Dialing Saved Numbers
+- The callee should have the capability to directly dial a phone number from their saved contacts or address book.
+ 
 
-\>
 
-…
+
 
 ## 3.2 Non-Functional Requirements
 
