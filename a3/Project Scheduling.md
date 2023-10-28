@@ -23,6 +23,7 @@
 | _10/24/2023_ | _Version 1.5_   | _Andrii Provozin_ | _Added CPA_                         |
 | _10/27/2023_ | _Version 1.6_   | _Andrii Provozin_ | _Added CPA Significance             |
 
+
 **Table of Contents**
 
 - [1. Introduction](#1-introduction)
@@ -34,8 +35,10 @@
 - [3. WBS ](#3-wbs)
 - [4. Gantt Chart ](#4-gantt-chart)
 - [5. PERT Chart ](#5-pert-chart)
-- [6.1 CPA Chart ](#6.1-cpa-chart)
-- [6.2 CPA Significance ](#6.2-cpa-significance-of-the-critical-path)
+
+- [6.1 CPA Chart ](#61-cpa-chart)
+- [6.2 CPA Significance ](#62-cpa-significance)
+
 - [A. Appendix](#a-appendix)
 
 # 1. Introduction
@@ -228,7 +231,7 @@ Which defines: The successor task 'B' requires the predecessor task 'A' to finis
 
 ![Gantt Chart](Gantt-Chart.png)
 
-# 5 PERT
+# 5 PERT Chart
 
 ![PERT](PERT.png)
 
@@ -241,6 +244,7 @@ Which defines: The successor task 'B' requires the predecessor task 'A' to finis
 A key idea in project management and scheduling is the Critical Path. It is essential for setting the project's schedule, allocating resources, and increasing chances of the project's successful conclusion.
 
 There are number of reasons why it is significant, but the following few explain it the best from my perspective:
+
 
 - Project length: 
 - - The Critical Path allows to get the minimum amount of time that is needed to finish the project. Hence, that allows project managers to set realistic project schedules and make plans that would sound reasonable to stakeholders.
@@ -255,4 +259,4 @@ Overall, Critical Path is a great tool to have and use for any project manager t
 
 # A. Appendix
 
-- [Software Requirements Specification]()
+- [Software Requirements Specification](../a2/Software Requirements Specification.md)
