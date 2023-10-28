@@ -86,7 +86,7 @@ The tasks assigned to Andrii are:
 - 4.1.3 Edit Contacts
 - 4.2.1 Interface Layout
 - 2.3 Blacklist Unpaying Users
-- 1.1.2 Grab Logs from Backend
+- 1.2.2 Grab Logs from Backend
 
 The tasks assigned to Josh are:
 - 4.1.4 Call Another User
@@ -190,7 +190,7 @@ Which defines: The successor task 'B' requires the predecessor task 'A' to finis
 |2.1|2.2|
 |2.1|2.3|
 |2.1|1.1.2|
-|2.3|1.2.1|
+|1.2.1|2.3|
 |4.2.1|4.1.1|
 |4.2.1|4.1.2|
 |4.2.1|4.1.4|
