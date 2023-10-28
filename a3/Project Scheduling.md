@@ -30,6 +30,10 @@
   - [2.2 Resource Identification](#22-resource-identification)
   - [2.3 Time Estimates](#23-time-estimates)
   - [2.4 Task Order](#24-task-order)
+- [3. WBS ](#3-wbs)
+- [4. Gantt Chart ](#4-gantt-chart)
+- [5. PERT Chart ](#5-pert-chart)
+- [6. CPA Chart ](#6-cpa)
 - [A. Appendix](#a-appendix)
 
 # 1. Introduction
@@ -213,6 +217,22 @@ Which defines: The successor task 'B' requires the predecessor task 'A' to finis
 | 4.2.1       | 4.2.4.2   |
 | 4.2.1       | 4.2.4.3   |
 | 4.1.1       | 4.1.3     |
+
+# 3 WBS
+
+![Work Breakdown Structure](WBS.png)
+
+# 4 Gantt Chart
+
+![Gantt Chart](Gantt-Chart.png)
+
+# 5 PERT
+
+![PERT](PERT.png)
+
+# 6 CPA
+
+![Critical Path Analysis](cpa-path.drawio.png)
 
 # A. Appendix
 
