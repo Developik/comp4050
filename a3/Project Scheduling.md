@@ -21,7 +21,8 @@
 | _10/24/2023_ | _Version 1.2_   | _Josh Sigurdson_  | _Added Gantt Chart_                 |
 | _10/24/2023_ | _Version 1.3_   | _Khush Patel_     | _Added PERT Chart_                  |
 | _10/24/2023_ | _Version 1.5_   | _Andrii Provozin_ | _Added CPA_                         |
-| _10/27/2023_ | _Version 1.6_   | _Andrii Provozin_ | \_Added CPA Significance            |
+| _10/27/2023_ | _Version 1.6_   | _Andrii Provozin_ | _Added CPA Significance             |
+
 
 **Table of Contents**
 
@@ -34,8 +35,10 @@
 - [3. WBS ](#3-wbs)
 - [4. Gantt Chart ](#4-gantt-chart)
 - [5. PERT Chart ](#5-pert-chart)
+
 - [6.1 CPA Chart ](#61-cpa-chart)
 - [6.2 CPA Significance ](#62-cpa-significance)
+
 - [A. Appendix](#a-appendix)
 
 # 1. Introduction
@@ -242,7 +245,8 @@ A key idea in project management and scheduling is the Critical Path. It is esse
 
 There are number of reasons why it is significant, but the following few explain it the best from my perspective:
 
-- Project length:
+
+- Project length: 
 - - The Critical Path allows to get the minimum amount of time that is needed to finish the project. Hence, that allows project managers to set realistic project schedules and make plans that would sound reasonable to stakeholders.
 
 - Resource management:
