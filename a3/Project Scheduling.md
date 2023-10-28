@@ -21,6 +21,7 @@
 | _10/24/2023_ | _Version 1.2_   | _Josh Sigurdson_  | _Added Gantt Chart_                 |
 | _10/24/2023_ | _Version 1.3_   | _Khush Patel_     | _Added PERT Chart_                  |
 | _10/24/2023_ | _Version 1.5_   | _Andrii Provozin_ | _Added CPA_                         |
+| _10/27/2023_ | _Version 1.6_   | _Andrii Provozin_ | _Added CPA Significance             |
 
 **Table of Contents**
 
