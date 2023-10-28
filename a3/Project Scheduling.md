@@ -14,9 +14,13 @@
 
 ## Revision History
 
-| **Date**     | **Description** | **Author**     | **Comments**                        |
-| ------------ | --------------- | -------------- | ----------------------------------- |
-| _10/24/2023_ | _Version 1.0_   | _Ryan Dotzlaw_ | _Initial commit and task breakdown_ |
+| **Date**     | **Description** | **Author**        | **Comments**                        |
+| ------------ | --------------- | ----------------- | ----------------------------------- |
+| _10/24/2023_ | _Version 1.0_   | _Ryan Dotzlaw_    | _Initial commit and task breakdown_ |
+| _10/24/2023_ | _Version 1.1_   | _Ikram Khan_      | _Added WBS_                         |
+| _10/24/2023_ | _Version 1.2_   | _Josh Sigurdson_  | _Added Gantt Chart_                 |
+| _10/24/2023_ | _Version 1.3_   | _Khush Patel_     | _Added PERT Chart_                  |
+| _10/24/2023_ | _Version 1.5_   | _Andrii Provozin_ | _Added CPA_                         |
 
 **Table of Contents**
 
@@ -195,7 +199,7 @@ Which defines: The successor task 'B' requires the predecessor task 'A' to finis
 | 2.1         | 2.2       |
 | 2.1         | 2.3       |
 | 2.1         | 1.1.2     |
-| 2.3         |  1.2.1    |
+| 2.3         | 1.2.1     |
 | 4.2.1       | 4.1.1     |
 | 4.2.1       | 4.1.2     |
 | 4.2.1       | 4.1.4     |
