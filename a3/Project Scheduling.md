@@ -33,7 +33,8 @@
 - [3. WBS ](#3-wbs)
 - [4. Gantt Chart ](#4-gantt-chart)
 - [5. PERT Chart ](#5-pert-chart)
-- [6. CPA Chart ](#6-cpa)
+- [6.1 CPA Chart ](#6.1-cpa-chart)
+- [6.2 CPA Significance ](#6.2-cpa-significance-of-the-critical-path)
 - [A. Appendix](#a-appendix)
 
 # 1. Introduction
@@ -230,9 +231,26 @@ Which defines: The successor task 'B' requires the predecessor task 'A' to finis
 
 ![PERT](PERT.png)
 
-# 6 CPA
+# 6.1 CPA Chart
 
 ![Critical Path Analysis](cpa-path.drawio.png)
+
+# 6.2 CPA Significance
+
+A key idea in project management and scheduling is the Critical Path. It is essential for setting the project's schedule, allocating resources, and increasing chances of the project's successful conclusion.
+
+There are number of reasons why it is significant, but the following few explain it the best from my perspective:
+
+- Project length: 
+- - The Critical Path allows to get the minimum amount of time that is needed to finish the project. Hence, that allows project managers to set realistic project schedules and make plans that would sound reasonable to stakeholders.
+
+- Resource management:
+- - Project managers can make more educated decisions about resources distribution, such as staff and equipment, by analyzing which tasks are on the Critical Path. This leads to allocating more resources to the most important jobs, so that the project can stay within budget and be completed on time.
+
+- Risk management:
+- - Identification of potential risks and uncertainties that could change the project's timeline in a negative way becomes easier by having a thorough understanding of the Critical Path. Backup and risk mitigation plans can be arranged in advance to lessen these risks and make sure that the project tasks are being completed according to the previously agreed plan.
+
+Overall, Critical Path is a great tool to have and use for any project manager to meet project deadlines, manage team's resources and avoid less obvious project risks.
 
 # A. Appendix
 
