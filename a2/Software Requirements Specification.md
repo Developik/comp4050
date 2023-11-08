@@ -23,6 +23,8 @@
 | _10/12/2023_ | _Version 1.2_ | _Ikram Khan Shipon_ | _Completed Sections 3.2.1 - 3.2.5_ |
 | _10/12/2023_ | _Version 1.3_ | _Andrii Provozin_ | _Completed Section 1_ |
 | _10/12/2023_ | _Version 1.4_ | _Khush Patel_ | _Completed Section 3.1_ |
+| _10/13/2023_ | _Version 1.5_ | _Ryan Dotzlaw_ | _Completed Sections 3.3 - Appendix A_ |
+
 
 <div style="page-break-after: always;"></div>
 
@@ -206,21 +208,30 @@ This section describes non-functional features of the software project.
 
 - The system must have an intuitive UI and must not exceed more than 15mins of training to setup and use.
 - The system should be compatible with laptops, desktops and any mobile devices.
-- The system must have a well-documented, fast and sucure API to integrate with third-party applications.
+- The system must have a well-documented, fast and secure API to integrate with third-party applications.
+
 
 
 ## 3.3 Design Constraints
 
+- The software should be designed and implemented in accordance with Wind Falcons coding and design standards.
+- The software requires a stable internet connection to function correctly.
+
 ## 3.4 Legal, Copyright, and Other Notices
+
+Copyright © 2023 Wind Falcons co. All Rights Reserved
 
 ## 3.5 Other Requirements
 
-Catchall section for any additional requirements.
+- The software should meet a professional standard of quality.
+- The software should be considered visually appealing to the majority of it's userbase. 
 
 ## 4 Other Supporting Documents
 
+- [Project Readme](../README.md)
+- [Project Charter](../a1/Project_Charter.md)
+
 ## A. Appendices
 
-Appendices may be used to provide additional (and hopefully helpful) information. If present, the SRS should explicitly state whether the information contained within an appendix is to be considered as a part of the SRS's overall set of requirements.
+- [SRS Template](https://umanitoba-my.sharepoint.com/:w:/g/personal/shaowei_wang_umanitoba_ca/ER9IR-uOnnRPquKir7Fy1BIBQOT7YvxIEknOVjHbqnj7cQ?e=qQSWEK)
 
-_Example Appendices could include (initial) conceptual documents for the software project, marketing materials, minutes of meetings with the customer(s), etc._
