@@ -35,7 +35,7 @@
 
 ## 2. Risk Identification
 
-| **Risk** | **Description** | **Probability** | **Risk Exposure** | **Potential Loss** | **Risk Category** |
+| **Risk** | **Description** | **Probability** |  **Potential Loss** | **Risk Exposure** | **Risk Category** |
 | -------- | --------------- | --------------- | ----------------- | ------------------ | ----------------- |
 | Misalignment with Stakeholders | Risk of miscommunication between CRM and stakeholders on project goals and objectives, could result into conflicting priorities and expectations. | 0.25 | 150000 | 37500 | Mission and Goals |
 | Inadequate Skilled Resources | 10 developers with less than 5 years of experience could result into delaying the project. | 0.4 | 200000 | 80000 | Organization Management |  
