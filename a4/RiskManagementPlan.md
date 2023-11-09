@@ -40,7 +40,7 @@
 | **Risk** | **Description** | **Probability** |  **Potential Loss** | **Risk Exposure** | **Risk Category** |
 | -------- | --------------- | --------------- | ------------------- | ----------------- | ----------------- |
 | Misalignment with Stakeholders | Risk of miscommunication between CRM and stakeholders on project goals and objectives, could result into conflicting priorities and expectations. | 0.25 | 150000 | 37500 | Mission and Goals |
-| Inadequate Skilled Resources | 10 developers with less than 5 years of experience could result into delaying the project. | 0.4 | 200000 | 80000 | Organization Management |  
+| The Unplanned competitors Risk | The marketing team didn't find any other companies to compete with, so they didn't make a plan for dealing with future competitors and a disorganized organization can struggle to successfully complete a software project. | 0.4 | 200000 | 80000 | Organization Management |  
 | Regular Changes in Requirements | Regular changes in the requirements and specifications from CRM could potentially impact scope and timeline. | 0.2 | 150000 | 30000 | Customer |  
 | Overspending in the Budget | Unexpected expenses like providing more resources to train developer, changes in hardware requirement can possibly exceed budget. | 0.2 | 70000 | 14000 | Budget/Cost |  
 |Unsuccessful Marketing | If the marketing plan is ineffective, due to it being led by an inexperienced recent graduate, failing to penetrate the market will result in the need for more funds to be allocated to marketing to raise the public's awareness | 0.5 | 200000| 100000 | Budget/Cost|
