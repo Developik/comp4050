@@ -21,6 +21,7 @@
 | _11/08/2023_ | _Version 2.0_   | _Khush Patel_    | _10 Risk Identification_ |
 | _11/08/2023_ | _Version 2.1_   | _Josh Sigurdson_    | _10 Risk Identification_ |
 | _11/08/2023_ | _Version 3.0_ | _Ikram Khan_ | _5 Key Risk Identification and Justification_ |
+| _11/09/2023_ | _Version 3.1_ | _Andrii Provozin_ | _5 Key Risk Identification and Justification_ |
 
 
 ## Table of Contents
@@ -95,6 +96,11 @@ This section identifies the key risks for this project. The risks are prioritise
 
 | **Risk** | **Person Responsible** | **Response Strategy** | **Action Plan** | **Resource** |
 | -------- | ---------------------- | --------------------- | --------------- | ------------ |
+| **Many Inexperienced Programmers** | Project Manager | Mitigate | Training and Mentorship: Provide novice team members with extensive training through an implemented program. Assign seasoned mentors to assist and advise them. | Mentoring guidelines and training materials. |
+| **Deficiency in CRM's Hardware and Software** | System Architect | Avoid | Evaluation and Upgrade: Evaluate the hardware and software that are currently in use. Arrange and carry out the necessary improvements to fix the flaws.  | Tools for evaluation and resource upgrades. |
+| **Management Team in Foreign Environment** | IT Manager | Mitigate | Communication Protocols: Clearly define the channels of communication. Utilize online collaboration platforms to overcome the distance. Arrange frequent online conferences to coordinate plans and choices. | Platforms for online meetings and collaboration tools. |
+| **Reservation Overload** | System Architect | Avoid | Capacity Planning: Evaluate the reservation system's capacity. To manage the additional demand, implement upgrades and optimizations. Track system performance over time. | Instruments for system monitoring and performance analysis. |
+| **Distance between Team Members** | Scrum Master | Mitigate | Establish reliable virtual collaboration solutions for virtual cooperation. Create a transparent communication system and schedule frequent online meetings. Encourage frank and proactive communication in the culture. | Platforms for online meetings and collaboration tools. |
 
 ## 4. Additional Insights
 
