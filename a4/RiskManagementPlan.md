@@ -23,7 +23,6 @@
 | _11/08/2023_ | _Version 3.0_ | _Ikram Khan_ | _5 Key Risk Identification and Justification_ |
 | _11/09/2023_ | _Version 3.1_ | _Andrii Provozin_ | _5 Key Risk Identification and Justification_ |
 | _11/09/2023_ | _Version 4.1_   | _Khush Patel_    | _Updated an Risk_ |
-
 | _11/10/2023_ | _Version 5.0_   | _Ryan Dotzlaw_    | _Added Intro, Additional Insights, and Summary_ |
 
 
