@@ -129,6 +129,6 @@ The newer hardware would allow more reservations to occur at once without overlo
 
 In summary, the risk identification table provides a list of possible risks the ARRS project may face, along with the estimated consequences of said risks.
 
-Additionally, **Many Inexperienced Programmers**, **Deficiency in CRM's Hardware and Software**, **Management Team in Foreign Environment**, **Reservation Overload**, and **Distance between Team Members** are the key risks due to their high risk exposure, and for the resons defined in the justification section.
+Additionally, **Many Inexperienced Programmers**, **Deficiency in CRM's Hardware and Software**, **Management Team in Foreign Environment**, **Reservation Overload**, and **Distance between Team Members** are the key risks due to their high risk exposure, and for the reasons defined in the justification section.
 
 Finally, the response plan provides a plan of action to help mitigate or avoid the key risks of the ARRS project.
