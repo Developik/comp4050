@@ -24,6 +24,7 @@
 | _11/09/2023_ | _Version 3.1_ | _Andrii Provozin_ | _5 Key Risk Identification and Justification_ |
 | _11/09/2023_ | _Version 4.1_   | _Khush Patel_    | _Updated an Risk_ |
 
+| _11/10/2023_ | _Version 5.0_   | _Ryan Dotzlaw_    | _Added Intro, Additional Insights, and Summary_ |
 
 
 ## Table of Contents
@@ -37,6 +38,18 @@
 - [5. Summary](#5-summary)
 
 ## 1. Introduction
+
+The purpose of this document is to define a robust risk management plan for the Automated Railway Reservation System (ARRS) project, as requested by the Chinese Railroad Ministry (CRM).
+The ARRS project involves several conditions:
+
+* None of the team involved speak the language. Interpreters must be relied on.
+* There will only be a small management team brought from the company, all other personnel and equipment is supplied by the CRM.
+* The local programmers have a good background in computer science, but lack skills in software engineering, object-oriented developement, and telecommunication skills.
+* There is sufficient hardware for a client-server approach.
+* The CRM has failed to implement a similar project before they had access to good telecommunications technology.
+* Customers, employees and managers will be available to communicate with for clarifications.
+
+These conditions, along with the list of resources supplied by the CRM, and other contextual factors will be used to perform risk identification, analysis, prioritization and planning in order to build the risk management plan.
 
 ## 2. Risk Identification
 
@@ -106,5 +119,17 @@ This section identifies the key risks for this project. The risks are prioritise
 
 ## 4. Additional Insights
 
+All the key risks, except for **Reservation Overload**, will be managed directly at the initial stages of the project. 
+While this will make the initial stages of the project more challenging, should the risk management plan be followed, for the rest of the project the only other key risk will be **Reservation Overload**.
+
+In addition to that, the risk factor of **Reservation Overload** will be lessened if the **Deficiency in CRM's Hardware and Software** is managed correctly. 
+The newer hardware would allow more reservations to occur at once without overloading the system.
+
+
 ## 5. Summary
 
+In summary, the risk identification table provides a list of possible risks the ARRS project may face, along with the estimated consequences of said risks.
+
+Additionally, **Many Inexperienced Programmers**, **Deficiency in CRM's Hardware and Software**, **Management Team in Foreign Environment**, **Reservation Overload**, and **Distance between Team Members** are the key risks due to their high risk exposure, and for the resons defined in the justification section.
+
+Finally, the response plan provides a plan of action to help mitigate or avoid the key risks of the ARRS project.
