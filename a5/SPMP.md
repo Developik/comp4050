@@ -2,7 +2,7 @@
 
 # **_ProCaller_**
 
-**PROJECT CHARTER**
+**Software Project Management Plan**
 
 ### Version 0.1
 
