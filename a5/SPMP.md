@@ -4,7 +4,7 @@
 
 **Software Project Management Plan**
 
-### Version 0.1
+### Version 0.2
 
 ### 11/21/2023
 
@@ -17,6 +17,7 @@
 | **Date** | **Description** | **Author** | **Comments** |
 | --- | --- | --- | --- |
 | _11/21/2023_ | _Version 0.1_ | _Ryan Dotzlaw_ | _Initial Document Commit_ |
+| _11/22/2023_ | _Version 0.2_ | _Ryan Dotzlaw_ | _Completed Section 1_ |
 
 **Table of Contents**
 
@@ -62,85 +63,170 @@
 
 ## 1.1 Purpose, Scope, and Objectives
 
-Define the purpose and scope of the project.
+The purpose of the _ProCaller_ project is to create an online phone system to place virtual calls between users anytime. 
+This online phone system will be accessed by the users through an application designed to work on desktop, laptop and mobile devices.
 
-Describe any considerations of scope or objectives to be excluded from the project or the deliverables.
+_ProCaller_ will remove the need for users to have additional devices, such as cellphones or landline phones, to communicate with other users.
+For example, this would allow companies to not have to spend money supplying their employees with these devices. 
+Instead it would allow employees to use any internet connected device, such as an already provided work computer or a personal device.
 
-Ensure that the statement of scope is consistent with similar statements in the business case, the project charter and any other relevant system-level or business-level documents.
+Elements that are within the projects scope are as follows:
+-	Audio-Only Calls between users
+-	Ability to create outgoing calls and receive incoming calls on the app
+-	Allowing users to log into their accounts on the app
+-	Seamless routing of incoming calls to all of a user’s logged in apps, regardless of the platform
+-	Tracking Call Logs
+-	Functional application for mobile devices and computers
+-	Monitoring and Moderation software for the system
+-	Calculating user’s bills
+-	Informing users of their bills
 
-Identify and describe the business or system needs to be satisfied by the project.
+Elements that are out of the project scope include the following:
+-	Video Calls between users
+-	Text chat between users
+-	Web-based application
+-	Recording calls
+-	Integration with other systems (pre-recorded messages, call menus)
+-	Voicemail
 
-Provide a concise summary of:
+Video calls and text chat were not included in the scope since they aren't included in the project's purpose of creating a 'landline-esque' online phone system. 
+Additionally, including these two elements would greatly increase the complexity of the project at all levels, leading to a larger allocation of resources than availiable for this project.
 
-- the project objectives,
+A web-based application isn't included in the scope due to the stakeholders explicitly requesting the project to be implemented as a downloadable application.
+The lack of a web-based application will remove the need for servers to run the application, leading to lower maintenance costs once the project is running.
 
-- the deliverables required to satisfy the project objectives, and
+Recording calls, integration with other systems, and voicemail were all deemed unnecessary by the stakeholders, so they were not included in the project's scope.
 
-- the methods by which satisfaction of the objectives will be determined.
+The project objectives are as follows:
+- _In 6 months, create an app that can be used on mobile devices and computers that allows users of the app to call other users, regardless of application platform, over the internet._
+- _In 8 months, create a backend server that routes the numbers dialed by a user to an (IP, Port) pair, connecting one user to another using the server as an intermediary. Additionally, the backend server needs to store users, and log call metadata (length, time, etc.) for determining the billing cost._
+- _In 1 year, 2 months, design a GUI called the System Console, that allows specific members of a client company to control and monitor their own Online Virtual Phone System network. Performing actions like finding available phone numbers, setting phone number – (IP, Port) mapping, controlling calls per user, etc._
+- _In 1 year, 6 months, create a billing system that calculates the cost a client company owes based on the calls made by their users and their plan, among other factors. Additionally, the billing system needs to send a bill to the user at the end of the current billing period, and any Administrators should be able to view a client’s current bill using the System Console._
 
-Describe the relationship of this project to other projects.
+There is one major deliverable for each objective, in order they are:
+- The creation of the frontend application
+- The creation of the routing server
+- The creation of the system console
+- The creation of the billing system
 
-If appropriate, describe how this project will be integrated with other projects or ongoing work processes.
+Each of the project's objectives will be considered complete if it meets the following conditions:
+- The major deliverable meets the conditions defined in it's associated project objective.
+- The major deliverable integrates and works with any previous project deliverables.
+- The major deliverable has completed all the tasks associated with it, as defined in the project schedule's work breakdown structure.
 
-Provide a reference to the official statement of project requirements (e.g.: in the business case or the project charter)
+The project of developing _ProCaller_ can potentially have several relationships with other projects:
+- An advertisment project made to promote _ProCaller_.
+- A project for the expansion of company server infrastructure depending on estimated _ProCaller_ demand and performance.
+- As one of potentially many smaller projects started to achieve the goal of a larger project started by management to increase company profits.
+
+As a result, this project will need to maintain communication with the company IT group to cover hardware requirements and server maintenance.
+In addition, this project will need to integrate with the company's PR team for any advertising.
+
+A reference to the official statement of project requirements can be found in the [project charter](../a1/Project_Charter.md).
 
 ## 1.2 Assumptions, Constraints, and Risks
 
-Describe the assumptions on which the project is based.
+There are four assumptions this project makes:
+1. _Users of the online virtual phone system are expected to have access to dependable internet and cloud services in order to place and receive calls._
+2. _Only one administrator can access the system at a time._
+3. _Both clients have initiating the call have our app installed on their devices_. 
+4. _Administrators acquired other required permissions to make changes to user's plan (legal right to change the plan, approval from the manager, etc.)_.
 
-Describe the imposed constraints and risks on the project such as:
 
-- schedule,
+The project's constraints are:
+- The system needs to make sure that no phone numbers can start with a particular prefix that is used for advanced features. The available phone numbers are constrained by this restriction, which should be taken into account while designing the dialing plan.
+- The billing software must correctly determine prices depending on call length, time of day, and calling plan. A crucial restriction is ensuring accuracy in billing calculations.
+- The system should be capable of keeping user records should be retained indefinitely, so storage auto-scaling should be taken into consideration.
+- Client application should be connecting to the routing server via sockets.
+- System should have database schema set up in a way that would allow fetching any user's bill for any billing period. 
+- Version control software, specifically Github, will be used for the project's development and documentation storage.
+- The schedule given to the project (a total of 1 year, 6 months) is generous when looking at the critical path analysis. 
+- Due to the time excess, the project is expected to be done at a high level of quality and in such a way to allow for potential further expansion after the final deliverable.
+- The entire project will not be done from scratch, the development team will determine what stack they will use, and integrate various libraries into the code base as needed.
+- The project has an initial budget of $120,000 in the first 6 months, after that it will be raised to a total of $500,000.
+- There are five developers working on this project, one of them also has the role of project manager.
 
-- budget,
-
-- resources,
-
-- quality,
-
-- software to be reused,
-
-- existing software to be incorporated,
-
-- technology to be used, and
-
-- external interfaces.
 
 ## 1.3 Project Deliverables
 
-Identify and list the following, as required to satisfy the terms of the project charter or contract:
 
-- project deliverables (either directly in this Plan, or by reference to an external document),
+The project deliverables are:
+1. Frontend Application
+	- To be delivered in 6 months.
+	- Deliver by submiting application installers (.exe, .apk, etc.) to project repository and project manager for a stakeholder demonstration.
+	- Ensure the application can be installed on devices.
+	- Ensure that frontend application can meet performance metrics defined in software requirements specification document.
+	- Ensure the application functions as expected without the routing server (no call functionality, but app navigation works).
+2. Routing Server
+	- To be delivered in 8 months (2 months after previous deliverable).
+	- Deliver by launching an instance of the routing server and informing the project manager for use in a stakeholder demonstration.
+	- Ensure that routing server can meet performance metrics defined in software requirements specification document.
+	- Ensure that the routing server integrates with the frontend application (call functionality available in frontend app).
+3. System Console
+	- To be delivered in 1 year, 2 months (6 months after previous deliverable).
+	- Deliver by providing updated application with system console to project manager for a stakeholder demonstration.
+	- Ensure the system console integrates with the previous two deliverables.
+	- Ensure the system console accurately tracks data for use with the next deliverable.
+4. Billing System
+	- To be delivered in 1 year, 6 months (4 months after previous deliverable).
+	- Deliver by submiting updated software to project manager for use with a stakeholder demonstration.
+	- Additionally, submit software and documentation on running/configuring backend software to project manager to be passed to company IT team to start application distribution and starting additional backend servers in preparation for official release.
+	- Ensure billing system integrates with the previous three deliverables.
 
-- delivery dates,
-
-- delivery location, ands
-
-- quantities required.
-
-Specify the delivery media.
-
-Specify any special instructions for packaging and handling. 
 
 ## 1.4 Schedule and Budget Summary
 
-Provide a summary of the schedule and budget for the ICT project.
+The first 6 months will have a budget of $120,000, after that the budget will be raised to a total of $500,000.
 
-Restrict the level of detail to an itemization of the major work activities and supporting processes (e.g.: give only the top level of the work breakdown structure).
+The project is expected to be completed after 1 year and 6 months.
+
+According to the critical path analysis in the project schedule, the completion dates for each deliverable are as follows:
+
+| **Name** | **Task ID** | **From** | **To** |
+| -------- | ----------- | -------- | ------ |
+| Frontend Application | 4 | Day 0 | Day 25 |
+| Routing Server | 3 | Day 0 | Day 19 |
+| System Console | 1 | Day 9 | Day 25 |
+| Billing System | 2 | Day 9 | Day 25 |
+
+
+As mentioned previously, the total allocated time of 1 year, 6 months gives a lot of extra time by our estimates.
 
 ## 1.5 References
 
-Provide a complete list of all documents and other sources of information referenced in this Plan.
-
-Identify each referenced document by title, report number, date, author and publishing organization.
-
-Identify other referenced sources of information, such as electronic files, using unique identifiers such as path/name, date and version number.
-
-Identify and justify any deviations from the referenced standards or policies. 
+| **Name**                                 | **Path**                                       | **Date**   | **Version** |
+| ---------------------------------------- | ---------------------------------------------- | ---------- | ----------- |
+| Project Charter                          | ../a1/Project_Charter.md                       | 09/28/2023 | 1.7         |
+| Software Requirements Specification Plan | ../a2/"Software Requirements Specification.md" | 10/13/2023 | 1.5         |
+| Project Schedule                         | ../a3/"Project Scheduling.md"                  | 10/24/2023 | 1.6         |
 
 ## 1.6 Definitions and Acronyms
 
-Define, or provide references to documents or annexes containing the definition of all terms and acronyms required to properly understand this Plan. 
+Software Requirements Specification (SRS):
+
+- A document that provides a thorough description of the features and functionalities of a software project's requirements and specifications.
+
+User Interface (UI):
+
+- Users engage with the visual and interactive components of a software application to carry out activities. <br> 
+Example: Facebook web page.
+
+Application Programming Interface (API):
+
+- A set of guidelines and procedures that permit communication between various software programs. <br> Example: Twitter API, allows fetching data in JSON format.
+
+Design requirements (D-requirements):
+
+- Clear specifications that direct a software project's conception, execution, and testing.
+
+Operating System (OS):
+
+- Software that controls computer hardware and offers assistance to computer programs. <br> Example: Windows 11.
+
+Work Breakdown Structure (WBS):
+
+- A hierarchical diagram consisting of higher-level requirements being broken down recursively into the smallest possible tasks.
+
 
 # 2. Project Organization
 
