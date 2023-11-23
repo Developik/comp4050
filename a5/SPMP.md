@@ -18,6 +18,7 @@
 | --- | --- | --- | --- |
 | _11/21/2023_ | _Version 0.1_ | _Ryan Dotzlaw_ | _Initial Document Commit_ |
 | _11/22/2023_ | _Version 0.2_ | _Ryan Dotzlaw_ | _Completed Section 1_ |
+| _11/23/2023_ | _Version 0.3_ | _Josh Sigurdson_ | _Completed Section 4_ |
 
 **Table of Contents**
 
@@ -55,9 +56,6 @@
    * [5.1 Documentations](#51-documentations)
    * [5.2 Quality Assurance](#52-quality-assurance)
 - [6. Additional Plans](#6-additional-plans)
-
-
-
 
 # 1. Project Overview
 
@@ -146,11 +144,10 @@ The project's constraints are:
 - The project has an initial budget of $120,000 in the first 6 months, after that it will be raised to a total of $500,000.
 - There are five developers working on this project, one of them also has the role of project manager.
 
-
 ## 1.3 Project Deliverables
 
-
 The project deliverables are:
+
 1. Frontend Application
 	- To be delivered in 6 months.
 	- Deliver by submiting application installers (.exe, .apk, etc.) to project repository and project manager for a stakeholder demonstration.
@@ -412,31 +409,47 @@ Specify the following if appliable:
 
 # 4. Technical Process Plans
 
+This SPMP will specify the technical processes for the project. This section defines the plans for the software development process, methods, tools and techniques, infrastructure, and product acceptance.
+
 ## 4.1 Process Model
 
-Specify the software development process to be used.
+The software development process to be used will be Agile. The team will generate user stories and use them to create a product backlog. The team will then create a sprint backlog and use it to create a sprint/phase. The team will then develop the product increment and present it to the customer for feedback. The team will then repeat the process until the project is completed.
 
-Specify the timing and goal of each phase of the process. 
+|**Phase**| **Start and Finish date** | **Phase Goals** |
+|---|---|---|
+| Project Startup/Learning| 09/28/2023 - 11/28/2023 | - Learn about the project and the technologies that will be used. <br> - Create the Project Charter and the Software Requirements Specification. <br> - Create the Project Schedule. <br> - Create the Software Project Management Plan. |
+| Requirements | 11/28/2023 - 12/23/2023 | - Become familiarized with the requirements <br> - Create a review documents (SRS, SPMP)  |  
+| Phase 1 | 12/23/2023 - 03/31/2024 | - Frontend Application Development |
+| Phase 2 | 04/01/2024 - 05/31/2024 | - Routing Server Development |
+| Phase 3 | 06/01/2024 - 11/31/2024 | - System Console Development |
+| Phase 4 | 12/01/2024-03/31/2024 | - Billing System Development |
 
 ## 4.2 Methods, Tools, and Techniques
 
-Specify the development methodologies, programming languages and other notations, and the processes, tools and techniques to be used to specify, design, build, test, integrate, document, deliver, modify and maintain the project deliverable and non-deliverable work products.
+The ICT team will consider using Object-Oriented Programming (OOP) as the development methodology for the project. The team will also consider software design patterns of: prototype, facade, and mediator patterns. There is no set development language for the project, but the team will consider using C++ or Java. The team will also consider using non-relational (no-SQL) and relational (SQL) databases, from: MySQL, PostgresQL. The team will use the following tools and techniques to develop the project: Visual Studio Code, Git, and Github. The team will use the following technical standards, policies, and procedures: the IEEE 830-1998 standard for Software Requirements Specification, the IEEE 1016-1998 standard for Software Design Descriptions, and the IEEE 1028-1998 standard for Software Reviews and Audits.
 
-Specify the technical standards, policies, and procedures governing development and/or modification of the work products. 
+Additional tools to be used will be: Google Docs, Google Sheets, Google Slides, and Google Drive.
 
 ## 4.3 Infrastructure
 
-Specify the plan for establishing and maintaining the development environment (hardware, operating system, network and software), and the policies, procedures, standards, and facilities required to conduct the ICT project. These resources may include workstations, local area networks, software tools for analysis, design implementations, testing, and project management, desks, office space, and provisions for physical security, administrative personnel, and janitorial services.
+The team will have access to the following resources: a computer lab with Linux-based machines, a server, and a network. The team will also have access to the following software: Visual Studio Code, Git, and Github. The team will also have access to the following hardware: Linux-based laptop computers, monitors, mice, and keyboards. The team will also have access to Google's G Suite, MatLab, and Discord.
+
+The team will have a physical working space apart from the computer lab. They will be provided with individual desks with no partitions. The team will also have access to a whiteboard, a projector, a printer and a scanner.
+
+There will be two administrative staff members assigned to the team. A technical support member working remotely with the ability to enter the offices when required. The building will be secured by a security team and the team will have access to the building 24/7. The building also has a janitorial service that will clean the office and computer lab every day after 6:00 PM.
 
 ## 4.4 Product Acceptance
 
-Specify the plan for customer acceptance of the deliverables generated by the ICT project.
+The plan for customer acceptance of the deliverables involves defining acceptance criteria, conducting testing, demonstrating the deliverables, analyzing them for compliance with requirements, inspecting for defects, and allowing the customer to evaluate and accept based on the criteria. The specific processes, methods, and tools used will be documented in the acceptance criteria agreement between the ICT organization and the customer. Objective criteria for determining acceptability will also be specified.
 
-Specify objective criteria for determining acceptability of the deliverables.
+The acceptance criteria will be defined in a formal agreement between the ICT organization and the customer. This agreement will outline the specific requirements and standards that the deliverables must meet in order to be accepted. Both parties will review and sign the agreement to ensure mutual understanding and an agreement to the acceptance criteria.
 
-Reference a formal agreement of the acceptance criteria signed by representatives of the ICT organization and the customer.
+The deliverable acceptance process will involve the following technical processes, methods, and tools:
 
-Specify any technical processes, methods, or tools required for deliverable acceptance, such as testing, demonstration, analysis and inspection. 
+- Testing: The ICT team will conduct unit testing, integration testing, and system testing to ensure the functionality and quality of the deliverables. Testing tools such as JUnit, Mockito, and Selenium may be used.
+- Demonstration: The ICT team will demonstrate the Front-end functionality, Routing Server, System Console, and Billing System to the customer for their evaluation and acceptance.
+- Analysis: The deliverables will be analyzed to ensure they meet the specified requirements and standards outlined in the acceptance criteria. This may involve reviewing the code, documentation, and performance metrics.
+- Inspection: The deliverables will undergo inspection to identify any defects, errors, or deviations from the requirements. This may involve code reviews, documentation reviews, and quality assurance checks.
 
 # 5. Supporting Process Plans
 
