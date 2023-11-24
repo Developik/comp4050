@@ -16,10 +16,14 @@
 
 | **Date**     | **Description** | **Author**       | **Comments**              |
 | ------------ | --------------- | ---------------- | ------------------------- |
-| _11/21/2023_ | _Version 0.1_   | _Ryan Dotzlaw_   | _Initial Document Commit_ |
-| _11/22/2023_ | _Version 0.2_   | _Ryan Dotzlaw_   | _Completed Section 1_     |
-| _11/23/2023_ | _Version 0.3_   | _Josh Sigurdson_ | _Completed Section 4_     |
-| _11/23/2023_ | _Version 0.4_   | _Ikram Khan_     | _Added Section 3_         |
+| _11/21/2023_ | _Version 1.0_   | _Ryan Dotzlaw_   | _Initial Document Commit_ |
+| _11/22/2023_ | _Version 2.0_   | _Ryan Dotzlaw_   | _Completed Section 1_     |
+| _11/23/2023_ | _Version 3.0_   | _Josh Sigurdson_ | _Completed Section 4_     |
+| _11/23/2023_ | _Version 4.0_   | _Ikram Khan_     | _Added Section 3_         |
+| _11/24/2023_ | _Version 5.0_   | _Andrii Provozin_| _Added Section 5_         |
+| _11/24/2023_ | _Version 6.0_   | _Khush Patel_     | _Added Section 2_        |
+| _11/24/2023_ | _Version 6.1_   | _Khush Patel_     | _Added Section 3.2_        |
+
 
 **Table of Contents**
 
@@ -31,7 +35,9 @@
   - [1.5 References](#15-references)
   - [1.6 Definitions and Acronyms](#16-definitions-and-acronyms)
 - [2. Project Organization](#2-project-organization)
-  - [2.1 Organizational Structure](#21-organizational-structure)
+  - [2.1 Organizational Structure](#21-organizational-structure)  
+      - [2.1.1 Internal Structure](#211-internal-structure-of-the-organization-for-procaller-project)
+      - [2.1.2 External Stricture](#212-external-structure-of-the-organization-for-procaller-project)
   - [2.2 Roles and Responsibilities](#22-roles-and-responsibilities)
 - [3. Managerial Process Plans](#3-managerial-process-plans)
   - [3.1 Start-up Plan](#31-start-up-plan)
@@ -234,15 +240,49 @@ Work Breakdown Structure (WBS):
 
 ## 2.1 Organizational Structure
 
-Specify the internal and external structure of the organization for your project.
+## 2.1.1 Internal structure of the organization for ProCaller project:
+-  Director / CEO
+   -  Project Manager / Assitant Project Manager
+      - Team Lead
+         - Developer Manager
+            - Developer
+         - QA Manager
+            - QA
+      - IT Department
+         - IT Manager
+            - IT Representatives
+      - Sales Department
+         - Sales Manager
+            - Sales Representatives
+      
+
+## 2.1.2 External structure of the organization for ProCaller project.
+
+- Clients
+   - Client support team
+- Manufactureres
+- Marketing and Public Relations (PR)
+   - Marketing Manager
+   - PR Specialist
+- Users
+   - User support Team
+
 
 ## 2.2 Roles and Responsibilities
 
-Identify and state the nature of each major work activity and supporting process.
+| Work Activities/Processes  | Nature | Project Director/CEO | Project Manager | Team Lead | Developer Manager | IT Manager | Sales Manager |
+|-----------------------------------|----------------------|----------------------| -----------------|-----------|---------------------|------------|---------------|
+| Project Management    | Defining ProCaller's goals, scope, timeline, and resource allocation. Executing tasks to meet project milestones. | ✓                    | ✓               | ✓         |                     |            |               |
+| Key Client Relationship Management  | Building and maintaining strong relationships with key clients. Understanding client needs and ensuring satisfaction. | ✓                    | ✓               | ✓         |                     |            | ✓             |
+| Strategic Partnership Development |  Identifying and fostering collaborations with external partners to enhance project capabilities or reach new markets.  | ✓                    | ✓               |           | ✓                   | ✓          | ✓             |
+| Marketing Strategy Development   | Creating plans to promote the ProCaller, including advertising, branding, and market positioning.    | ✓                    | ✓               |           |                     | ✓          |               |
+| Public Relations Management   | Managing external communication, building a positive product image, and handling media relations.       | ✓                    | ✓               |           |                     | ✓          |               |
+| User Community Engagement    | Actively involving and communicating with the user community. Gathering feedback and addressing user concerns.       |                     | ✓               | ✓         |                     |            |               |
+| Client Support          | Providing assistance and resolving issues for clients who are using the ProCaller project.             |                      | ✓               |           |                     |            |               |
+| IT Infrastructure Management | Overseeing the technical infrastructure, including servers, networks, and databases, to support the ProCaller project.        |                      |                   |           | ✓                   | ✓          |               |
+| Sales Strategy Execution | Implementing sales plans to attract new clients and meet revenue targets for the ProCaller project.             |                      |                   |           |                     |            | ✓             |
 
-Identify the organizational units that are responsible for those processes and activities.
 
-Consider using a matrix of work activities and supporting processes vs. organizational units to depict project roles and responsibilities.
 
 # 3. Managerial Process Plans
 
@@ -307,75 +347,29 @@ Acquisition tasks are integrated within key project milestones, ensuring a consi
 
 ### 3.2.1 Work Breakdown Structure
 
-Define a Work Breakdown Structure (WBS) to specify the various work activities to be performed in the ICT project, and to depict the relationships among these work activities.
+A comprehensive Work Breakdown Structure (WBS) for the ProCaller project, including work activities, relationships, risk factors, resource requirements, schedule durations, necessary resources, estimated durations, deliverables, acceptance criteria, and dependencies, can be found in this [Project Scheduling Document](https://github.com/Developik/comp4050/blob/main/a3/Project%20Scheduling.md).
 
-Decompose the work activities to a level that exposes all project risk factors, and that allows accurate estimation of resource requirements and schedule duration for each work activity.
-
-Specify the following factors for each work activity:
-
-- necessary resources,
-
-- estimated duration,
-
-- products or deliverables of the activity,
-
-- acceptance criteria for the work activity products, and
-
-- predecessor and successor work activities.
-
-The level of decomposition internally within the WBS may vary depending on the quality of the requirements, familiarity of the work, applicable level of technology, etc.
 
 ### 3.2.2 Schedule Allocation
 
-Specify the scheduling relationships among the project work activities in a manner that depicts the time-sequencing constraints and illustrates opportunities for concurrent work activities.
-
-Identify the critical path in the schedule.
-
-Indicate any constraints on the scheduling of particular work activities, that are caused by external factors.
-
-Identify appropriate schedule milestones to assess the scope and quality of project work products and of project achievement status.
-
-Techniques for depicting schedule relationships may include milestone charts, activity lists, activity Gantt charts, activity networks, critical path networks and PERT charts.
+A detailed scheduling relationships between project activities, critical path in the schedule, constraints on the scheduling, milestone charts, activity lists, activity Gantt charts, activity networks, critical path networks and PERT charts, can be found in this [Project Scheduling Document](https://github.com/Developik/comp4050/blob/main/a3/Project%20Scheduling.md)
 
 ### 3.2.3 Resource Allocation
 
-Provide a detailed itemization of the resources allocated to each major work activity in the project WBS.
+A detailed itemization of the resources allocated to each major work activity in the project WBS, can be found in this [Project Scheduling Document](https://github.com/Developik/comp4050/blob/main/a3/Project%20Scheduling.md)
 
-Specify the numbers and required skill levels of personnel for each work activity.
-
-Specify, as appropriate, the allocation of the following resources if applicable:
-
-- personnel (by skill level),
-
-- computing resources
-
-- software tools
-
-- special testing and simulation facilities, and
-
-- administrative support.
-
-Use a separate line item for each type of resource for each work activity.
 
 ### 3.2.4 Budget Allocation
 
-Provide a detailed breakdown of the necessary resource budgets for each of the major work activities in the WBS.
+A breakdown of the necessary resource budgets for each of the major work activities in the WBS.
 
-Specify the estimated cost for activity personnel, and include as appropriate, the costs for the following items if appliable:
+| Work Activities | Travel | Meetings | Computing Resources | Software Tools | Special Testing and Simulation Facilities | Administrative Support |
+|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
+| System Console | $ 2500 | $ 5000 | $ 10000 | $ 5000 | $ 7500 | $ 5000|
+| Billing System | $ 2500 | $ 5000 | $ 10000 | $ 5000 | $ 7500 | $ 5000 |
+| Backend Functionality | $ 2500 | $ 5000 | $ 20000 | $ 10000 | $ 15000 | $ 15000 |
+| App | $ 5000 | $ 7500 | $ 25000 | $ 7500 | $ 20000 | $ 20000 |
 
-- travel,
-
-- meetings,
-
-- computing resources,
-
-- software tools,
-
-- special testing and simulation facilities, and
-
-- administrative support.
-
-Use a separate line item for each type of resource in each activity budget.
 
 ## 3.3 Project Tracking Plan
 
@@ -444,7 +438,7 @@ The software development process to be used will be Agile. The team will generat
 
 ## 4.2 Methods, Tools, and Techniques
 
-The ICT team will consider using Object-Oriented Programming (OOP) as the development methodology for the project. The team will also consider software design patterns of: prototype, facade, and mediator patterns. There is no set development language for the project, but the team will consider using C++ or Java. The team will also consider using non-relational (no-SQL) and relational (SQL) databases, from: MySQL, PostgresQL. The team will use the following tools and techniques to develop the project: Visual Studio Code, Git, and Github. The team will use the following technical standards, policies, and procedures: the IEEE 830-1998 standard for Software Requirements Specification, the IEEE 1016-1998 standard for Software Design Descriptions, and the IEEE 1028-1998 standard for Software Reviews and Audits.
+The ProCaller team will consider using Object-Oriented Programming (OOP) as the development methodology for the project. The team will also consider software design patterns of: prototype, facade, and mediator patterns. There is no set development language for the project, but the team will consider using C++ or Java. The team will also consider using non-relational (no-SQL) and relational (SQL) databases, from: MySQL, PostgresQL. The team will use the following tools and techniques to develop the project: Visual Studio Code, Git, and Github. The team will use the following technical standards, policies, and procedures: the IEEE 830-1998 standard for Software Requirements Specification, the IEEE 1016-1998 standard for Software Design Descriptions, and the IEEE 1028-1998 standard for Software Reviews and Audits.
 
 Additional tools to be used will be: Google Docs, Google Sheets, Google Slides, and Google Drive.
 
@@ -458,14 +452,14 @@ There will be two administrative staff members assigned to the team. A technical
 
 ## 4.4 Product Acceptance
 
-The plan for customer acceptance of the deliverables involves defining acceptance criteria, conducting testing, demonstrating the deliverables, analyzing them for compliance with requirements, inspecting for defects, and allowing the customer to evaluate and accept based on the criteria. The specific processes, methods, and tools used will be documented in the acceptance criteria agreement between the ICT organization and the customer. Objective criteria for determining acceptability will also be specified.
+The plan for customer acceptance of the deliverables involves defining acceptance criteria, conducting testing, demonstrating the deliverables, analyzing them for compliance with requirements, inspecting for defects, and allowing the customer to evaluate and accept based on the criteria. The specific processes, methods, and tools used will be documented in the acceptance criteria agreement between the ProCaller organization and the customer. Objective criteria for determining acceptability will also be specified.
 
-The acceptance criteria will be defined in a formal agreement between the ICT organization and the customer. This agreement will outline the specific requirements and standards that the deliverables must meet in order to be accepted. Both parties will review and sign the agreement to ensure mutual understanding and an agreement to the acceptance criteria.
+The acceptance criteria will be defined in a formal agreement between the ProCaller organization and the customer. This agreement will outline the specific requirements and standards that the deliverables must meet in order to be accepted. Both parties will review and sign the agreement to ensure mutual understanding and an agreement to the acceptance criteria.
 
 The deliverable acceptance process will involve the following technical processes, methods, and tools:
 
-- Testing: The ICT team will conduct unit testing, integration testing, and system testing to ensure the functionality and quality of the deliverables. Testing tools such as JUnit, Mockito, and Selenium may be used.
-- Demonstration: The ICT team will demonstrate the Front-end functionality, Routing Server, System Console, and Billing System to the customer for their evaluation and acceptance.
+- Testing: The ProCaller team will conduct unit testing, integration testing, and system testing to ensure the functionality and quality of the deliverables. Testing tools such as JUnit, Mockito, and Selenium may be used.
+- Demonstration: The ProCaller team will demonstrate the Front-end functionality, Routing Server, System Console, and Billing System to the customer for their evaluation and acceptance.
 - Analysis: The deliverables will be analyzed to ensure they meet the specified requirements and standards outlined in the acceptance criteria. This may involve reviewing the code, documentation, and performance metrics.
 - Inspection: The deliverables will undergo inspection to identify any defects, errors, or deviations from the requirements. This may involve code reviews, documentation reviews, and quality assurance checks.
 
@@ -543,7 +537,7 @@ The deliverable acceptance process will involve the following technical processe
 
 ### Overview
 
-The steps to guarantee that the ICT project fulfils its responsibilities as stated in the requirements specification, ICT Project Management Plan, and any applicable standards are described in this Quality Assurance (QA) plan. Procedures for quality assurance like analysis, inspection, review, audit, and assessment are included in the plan.
+The steps to guarantee that the ProCaller project fulfils its responsibilities as stated in the requirements specification, ProCaller Project Management Plan, and any applicable standards are described in this Quality Assurance (QA) plan. Procedures for quality assurance like analysis, inspection, review, audit, and assessment are included in the plan.
 
 ### Assurance Procedures
 
