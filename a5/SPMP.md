@@ -436,7 +436,7 @@ The software development process to be used will be Agile. The team will generat
 
 ## 4.2 Methods, Tools, and Techniques
 
-The ICT team will consider using Object-Oriented Programming (OOP) as the development methodology for the project. The team will also consider software design patterns of: prototype, facade, and mediator patterns. There is no set development language for the project, but the team will consider using C++ or Java. The team will also consider using non-relational (no-SQL) and relational (SQL) databases, from: MySQL, PostgresQL. The team will use the following tools and techniques to develop the project: Visual Studio Code, Git, and Github. The team will use the following technical standards, policies, and procedures: the IEEE 830-1998 standard for Software Requirements Specification, the IEEE 1016-1998 standard for Software Design Descriptions, and the IEEE 1028-1998 standard for Software Reviews and Audits.
+The ProCaller team will consider using Object-Oriented Programming (OOP) as the development methodology for the project. The team will also consider software design patterns of: prototype, facade, and mediator patterns. There is no set development language for the project, but the team will consider using C++ or Java. The team will also consider using non-relational (no-SQL) and relational (SQL) databases, from: MySQL, PostgresQL. The team will use the following tools and techniques to develop the project: Visual Studio Code, Git, and Github. The team will use the following technical standards, policies, and procedures: the IEEE 830-1998 standard for Software Requirements Specification, the IEEE 1016-1998 standard for Software Design Descriptions, and the IEEE 1028-1998 standard for Software Reviews and Audits.
 
 Additional tools to be used will be: Google Docs, Google Sheets, Google Slides, and Google Drive.
 
@@ -450,14 +450,14 @@ There will be two administrative staff members assigned to the team. A technical
 
 ## 4.4 Product Acceptance
 
-The plan for customer acceptance of the deliverables involves defining acceptance criteria, conducting testing, demonstrating the deliverables, analyzing them for compliance with requirements, inspecting for defects, and allowing the customer to evaluate and accept based on the criteria. The specific processes, methods, and tools used will be documented in the acceptance criteria agreement between the ICT organization and the customer. Objective criteria for determining acceptability will also be specified.
+The plan for customer acceptance of the deliverables involves defining acceptance criteria, conducting testing, demonstrating the deliverables, analyzing them for compliance with requirements, inspecting for defects, and allowing the customer to evaluate and accept based on the criteria. The specific processes, methods, and tools used will be documented in the acceptance criteria agreement between the ProCaller organization and the customer. Objective criteria for determining acceptability will also be specified.
 
-The acceptance criteria will be defined in a formal agreement between the ICT organization and the customer. This agreement will outline the specific requirements and standards that the deliverables must meet in order to be accepted. Both parties will review and sign the agreement to ensure mutual understanding and an agreement to the acceptance criteria.
+The acceptance criteria will be defined in a formal agreement between the ProCaller organization and the customer. This agreement will outline the specific requirements and standards that the deliverables must meet in order to be accepted. Both parties will review and sign the agreement to ensure mutual understanding and an agreement to the acceptance criteria.
 
 The deliverable acceptance process will involve the following technical processes, methods, and tools:
 
-- Testing: The ICT team will conduct unit testing, integration testing, and system testing to ensure the functionality and quality of the deliverables. Testing tools such as JUnit, Mockito, and Selenium may be used.
-- Demonstration: The ICT team will demonstrate the Front-end functionality, Routing Server, System Console, and Billing System to the customer for their evaluation and acceptance.
+- Testing: The ProCaller team will conduct unit testing, integration testing, and system testing to ensure the functionality and quality of the deliverables. Testing tools such as JUnit, Mockito, and Selenium may be used.
+- Demonstration: The ProCaller team will demonstrate the Front-end functionality, Routing Server, System Console, and Billing System to the customer for their evaluation and acceptance.
 - Analysis: The deliverables will be analyzed to ensure they meet the specified requirements and standards outlined in the acceptance criteria. This may involve reviewing the code, documentation, and performance metrics.
 - Inspection: The deliverables will undergo inspection to identify any defects, errors, or deviations from the requirements. This may involve code reviews, documentation reviews, and quality assurance checks.
 
@@ -535,7 +535,7 @@ The deliverable acceptance process will involve the following technical processe
 
 ### Overview
 
-The steps to guarantee that the ICT project fulfils its responsibilities as stated in the requirements specification, ICT Project Management Plan, and any applicable standards are described in this Quality Assurance (QA) plan. Procedures for quality assurance like analysis, inspection, review, audit, and assessment are included in the plan.
+The steps to guarantee that the ProCaller project fulfils its responsibilities as stated in the requirements specification, ProCaller Project Management Plan, and any applicable standards are described in this Quality Assurance (QA) plan. Procedures for quality assurance like analysis, inspection, review, audit, and assessment are included in the plan.
 
 ### Assurance Procedures
 
