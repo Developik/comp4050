@@ -16,10 +16,12 @@
 
 | **Date**     | **Description** | **Author**       | **Comments**              |
 | ------------ | --------------- | ---------------- | ------------------------- |
-| _11/21/2023_ | _Version 0.1_   | _Ryan Dotzlaw_   | _Initial Document Commit_ |
-| _11/22/2023_ | _Version 0.2_   | _Ryan Dotzlaw_   | _Completed Section 1_     |
-| _11/23/2023_ | _Version 0.3_   | _Josh Sigurdson_ | _Completed Section 4_     |
-| _11/23/2023_ | _Version 0.4_   | _Ikram Khan_     | _Added Section 3_         |
+| _11/21/2023_ | _Version 1.0_   | _Ryan Dotzlaw_   | _Initial Document Commit_ |
+| _11/22/2023_ | _Version 2.0_   | _Ryan Dotzlaw_   | _Completed Section 1_     |
+| _11/23/2023_ | _Version 3.0_   | _Josh Sigurdson_ | _Completed Section 4_     |
+| _11/23/2023_ | _Version 4.0_   | _Ikram Khan_     | _Added Section 3_         |
+| _11/24/2023_ | _Version 5.0_   | _Andrii Provozin_| _Added Section 5_         |
+| _11/24/2023_ | _Version 6.0_   | _Khush Patel_     | _Added Section 2_        |
 
 **Table of Contents**
 
@@ -32,6 +34,8 @@
   - [1.6 Definitions and Acronyms](#16-definitions-and-acronyms)
 - [2. Project Organization](#2-project-organization)
   - [2.1 Organizational Structure](#21-organizational-structure)
+      -[2.1.1 Internal Structure](#211-internal-structure-of-the-organization-for-procaller-project)
+      -[2.1.2 External Stricture](#212-external-structure-of-the-organization-for-procaller-project)
   - [2.2 Roles and Responsibilities](#22-roles-and-responsibilities)
 - [3. Managerial Process Plans](#3-managerial-process-plans)
   - [3.1 Start-up Plan](#31-start-up-plan)
@@ -234,15 +238,47 @@ Work Breakdown Structure (WBS):
 
 ## 2.1 Organizational Structure
 
-Specify the internal and external structure of the organization for your project.
+## 2.1.1 Internal structure of the organization for ProCaller project:
+-  Director / CEO
+   -  Project Manager / Assitant Project Manager
+      - Team Lead
+         - Developer Manager
+            - Developer
+      - IT Department
+         - IT Manager
+            - IT Representatives
+      - Sales Department
+         - Sales Manager
+            - Sales Representatives
+      
+
+## 2.1.2 External structure of the organization for ProCaller project.
+
+- Clients
+   - Client support team
+- Manufactureres
+- Marketing and Public Relations (PR)
+   - Marketing Manager
+   - PR Specialist
+- Users
+   - User support Team
+
 
 ## 2.2 Roles and Responsibilities
 
-Identify and state the nature of each major work activity and supporting process.
+| Work Activities/Processes  | Nature | Project Director/CEO | Project Manager | Team Lead | Developer Manager | IT Manager | Sales Manager |
+|-----------------------------------|----------------------|----------------------| -----------------|-----------|---------------------|------------|---------------|
+| Project Management    | Defining ProCaller's goals, scope, timeline, and resource allocation. Executing tasks to meet project milestones. | ✓                    | ✓               | ✓         |                     |            |               |
+| Key Client Relationship Management  | Building and maintaining strong relationships with key clients. Understanding client needs and ensuring satisfaction. | ✓                    | ✓               | ✓         |                     |            | ✓             |
+| Strategic Partnership Development |  Identifying and fostering collaborations with external partners to enhance project capabilities or reach new markets.  | ✓                    | ✓               |           | ✓                   | ✓          | ✓             |
+| Marketing Strategy Development   | Creating plans to promote the ProCaller, including advertising, branding, and market positioning.    | ✓                    | ✓               |           |                     | ✓          |               |
+| Public Relations Management   | Managing external communication, building a positive product image, and handling media relations.       | ✓                    | ✓               |           |                     | ✓          |               |
+| User Community Engagement    | Actively involving and communicating with the user community. Gathering feedback and addressing user concerns.       |                     | ✓               | ✓         |                     |            |               |
+| Client Support          | Providing assistance and resolving issues for clients who are using the ProCaller project.             |                      | ✓               |           |                     |            |               |
+| IT Infrastructure Management | Overseeing the technical infrastructure, including servers, networks, and databases, to support the ProCaller project.        |                      |                   |           | ✓                   | ✓          |               |
+| Sales Strategy Execution | Implementing sales plans to attract new clients and meet revenue targets for the ProCaller project.             |                      |                   |           |                     |            | ✓             |
 
-Identify the organizational units that are responsible for those processes and activities.
 
-Consider using a matrix of work activities and supporting processes vs. organizational units to depict project roles and responsibilities.
 
 # 3. Managerial Process Plans
 
