@@ -4,9 +4,9 @@
 
 **Software Project Management Plan**
 
-### Version 0.2
+### Version 7.0
 
-### 11/21/2023
+### 11/24/2023
 
 # Wind Falcons
 
@@ -14,15 +14,16 @@
 
 ## Revision History
 
-| **Date**     | **Description** | **Author**       | **Comments**              |
-| ------------ | --------------- | ---------------- | ------------------------- |
-| _11/21/2023_ | _Version 1.0_   | _Ryan Dotzlaw_   | _Initial Document Commit_ |
-| _11/22/2023_ | _Version 2.0_   | _Ryan Dotzlaw_   | _Completed Section 1_     |
-| _11/23/2023_ | _Version 3.0_   | _Josh Sigurdson_ | _Completed Section 4_     |
-| _11/23/2023_ | _Version 4.0_   | _Ikram Khan_     | _Added Section 3_         |
-| _11/24/2023_ | _Version 5.0_   | _Andrii Provozin_| _Added Section 5_         |
-| _11/24/2023_ | _Version 6.0_   | _Khush Patel_     | _Added Section 2_        |
-| _11/24/2023_ | _Version 6.1_   | _Khush Patel_     | _Added Section 3.2_        |
+| **Date**     | **Description** | **Author**       | **Comments**                       |
+| ------------ | --------------- | ---------------- | ---------------------------------- |
+| _11/21/2023_ | _Version 1.0_   | _Ryan Dotzlaw_   | _Initial Document Commit_          |
+| _11/22/2023_ | _Version 2.0_   | _Ryan Dotzlaw_   | _Completed Section 1_              |
+| _11/23/2023_ | _Version 3.0_   | _Josh Sigurdson_ | _Completed Section 4_              |
+| _11/23/2023_ | _Version 4.0_   | _Ikram Khan_     | _Added Section 3_                  |
+| _11/24/2023_ | _Version 5.0_   | _Andrii Provozin_| _Added Section 5_                  |
+| _11/24/2023_ | _Version 6.0_   | _Khush Patel_    | _Added Section 2_                  |
+| _11/24/2023_ | _Version 6.1_   | _Khush Patel_    | _Added Section 3.2_                |
+| _11/24/2023_ | _Version 7.0_   | _Khush Patel_    | _Fixed Errors and Added Section 6_ |
 
 
 **Table of Contents**
@@ -330,7 +331,7 @@ Table belows shows the duration of personnel requirement and the sources they ar
 
 |              | Project Manager   | FullStack Developer             | QA        |
 | ------------ | ----------------- | ------------------------------- | --------- |
-| **Duration** | 18 months         | 18 months                       | 8months   |
+| **Duration** | 18 months         | 18 months                       | 8 months   |
 | **Source**   | Internal Transfer | Internal transfer and new hires | Contracts |
 
 ### 3.1.3 Resource Acquisition
@@ -352,11 +353,11 @@ A comprehensive Work Breakdown Structure (WBS) for the ProCaller project, includ
 
 ### 3.2.2 Schedule Allocation
 
-A detailed scheduling relationships between project activities, critical path in the schedule, constraints on the scheduling, milestone charts, activity lists, activity Gantt charts, activity networks, critical path networks and PERT charts, can be found in this [Project Scheduling Document](https://github.com/Developik/comp4050/blob/main/a3/Project%20Scheduling.md)
+A detailed scheduling relationships between project activities, critical path in the schedule, constraints on the scheduling, milestone charts, activity lists, activity Gantt charts, activity networks, critical path networks and PERT charts, can be found in this [Project Scheduling Document](https://github.com/Developik/comp4050/blob/main/a3/Project%20Scheduling.md).
 
 ### 3.2.3 Resource Allocation
 
-A detailed itemization of the resources allocated to each major work activity in the project WBS, can be found in this [Project Scheduling Document](https://github.com/Developik/comp4050/blob/main/a3/Project%20Scheduling.md)
+A detailed itemization of the resources allocated to each major work activity in the project WBS, can be found in this [Project Scheduling Document](https://github.com/Developik/comp4050/blob/main/a3/Project%20Scheduling.md).
 
 
 ### 3.2.4 Budget Allocation
@@ -365,10 +366,10 @@ A breakdown of the necessary resource budgets for each of the major work activit
 
 | Work Activities | Travel | Meetings | Computing Resources | Software Tools | Special Testing and Simulation Facilities | Administrative Support |
 |--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
-| System Console | $ 2500 | $ 5000 | $ 10000 | $ 5000 | $ 7500 | $ 5000|
-| Billing System | $ 2500 | $ 5000 | $ 10000 | $ 5000 | $ 7500 | $ 5000 |
-| Backend Functionality | $ 2500 | $ 5000 | $ 20000 | $ 10000 | $ 15000 | $ 15000 |
-| App | $ 5000 | $ 7500 | $ 25000 | $ 7500 | $ 20000 | $ 20000 |
+| System Console | $ 10,000 | $ 5,000 | $ 10,000 | $ 5,000 | $ 10,000 | $ 5,000|
+| Billing System | $ 10,000 | $ 5,000 | $ 10,000 | $ 5,000 | $ 10,000 | $ 5,000 |
+| Backend Functionality | $ 10,000 | $ 5,000 | $ 20,000 | $ 10,000 | $ 25,000 | $ 15,000 |
+| App | $ 15,000 | $ 7,500 | $ 25,000 | $ 7,500 | $ 50,000 | $ 20,000 |
 
 
 ## 3.3 Project Tracking Plan
@@ -580,22 +581,14 @@ Activities: Process evaluations, ongoing feedback, and metric analysis.
 
 # 6. Additional Plans
 
-Specify or reference any additional plans required to satisfy product requirements and contractual terms, which may include:
+Additional plans required to satisfy product requirements and contractual terms:
 
-- plans for assuring that safety, privacy, and security requirements are met,
+1) Safety, Privacy, and Security Assurance Plan.
+2) Product Installation Plan.
+3) User Training Plan.
+4) Product Maintenance Plan.
+5) Product Support Plan.
 
-- special facilities or equipment specification,
+ It's important to note that these plans are not exhaustive, and additional plans may be developed as needed to address the unique aspects of the project.
 
-- product installation plans,
-
-- user training plans,
-
-- integration plans,
-
-- data conversion plans,
-
-- system transition plans,
-
-- product maintenance plans, or
-
-- product support plans.
+*Note: Each plan's specific details will be customized to suit the project's unique needs and characteristics.*
