@@ -22,6 +22,8 @@
 | _11/23/2023_ | _Version 4.0_   | _Ikram Khan_     | _Added Section 3_         |
 | _11/24/2023_ | _Version 5.0_   | _Andrii Provozin_| _Added Section 5_         |
 | _11/24/2023_ | _Version 6.0_   | _Khush Patel_     | _Added Section 2_        |
+| _11/24/2023_ | _Version 6.1_   | _Khush Patel_     | _Added Section 3.2_        |
+
 
 **Table of Contents**
 
@@ -343,75 +345,29 @@ Acquisition tasks are integrated within key project milestones, ensuring a consi
 
 ### 3.2.1 Work Breakdown Structure
 
-Define a Work Breakdown Structure (WBS) to specify the various work activities to be performed in the ICT project, and to depict the relationships among these work activities.
+A comprehensive Work Breakdown Structure (WBS) for the ProCaller project, including work activities, relationships, risk factors, resource requirements, schedule durations, necessary resources, estimated durations, deliverables, acceptance criteria, and dependencies, can be found in this [Project Scheduling Document](https://github.com/Developik/comp4050/blob/main/a3/Project%20Scheduling.md).
 
-Decompose the work activities to a level that exposes all project risk factors, and that allows accurate estimation of resource requirements and schedule duration for each work activity.
-
-Specify the following factors for each work activity:
-
-- necessary resources,
-
-- estimated duration,
-
-- products or deliverables of the activity,
-
-- acceptance criteria for the work activity products, and
-
-- predecessor and successor work activities.
-
-The level of decomposition internally within the WBS may vary depending on the quality of the requirements, familiarity of the work, applicable level of technology, etc.
 
 ### 3.2.2 Schedule Allocation
 
-Specify the scheduling relationships among the project work activities in a manner that depicts the time-sequencing constraints and illustrates opportunities for concurrent work activities.
-
-Identify the critical path in the schedule.
-
-Indicate any constraints on the scheduling of particular work activities, that are caused by external factors.
-
-Identify appropriate schedule milestones to assess the scope and quality of project work products and of project achievement status.
-
-Techniques for depicting schedule relationships may include milestone charts, activity lists, activity Gantt charts, activity networks, critical path networks and PERT charts.
+A detailed scheduling relationships between project activities, critical path in the schedule, constraints on the scheduling, milestone charts, activity lists, activity Gantt charts, activity networks, critical path networks and PERT charts, can be found in this [Project Scheduling Document](https://github.com/Developik/comp4050/blob/main/a3/Project%20Scheduling.md)
 
 ### 3.2.3 Resource Allocation
 
-Provide a detailed itemization of the resources allocated to each major work activity in the project WBS.
+A detailed itemization of the resources allocated to each major work activity in the project WBS, can be found in this [Project Scheduling Document](https://github.com/Developik/comp4050/blob/main/a3/Project%20Scheduling.md)
 
-Specify the numbers and required skill levels of personnel for each work activity.
-
-Specify, as appropriate, the allocation of the following resources if applicable:
-
-- personnel (by skill level),
-
-- computing resources
-
-- software tools
-
-- special testing and simulation facilities, and
-
-- administrative support.
-
-Use a separate line item for each type of resource for each work activity.
 
 ### 3.2.4 Budget Allocation
 
-Provide a detailed breakdown of the necessary resource budgets for each of the major work activities in the WBS.
+A breakdown of the necessary resource budgets for each of the major work activities in the WBS.
 
-Specify the estimated cost for activity personnel, and include as appropriate, the costs for the following items if appliable:
+| Work Activities | Travel | Meetings | Computing Resources | Software Tools | Special Testing and Simulation Facilities | Administrative Support |
+|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
+| System Console | $ 2500 | $ 5000 | $ 10000 | $ 5000 | $ 7500 | $ 5000|
+| Billing System | $ 2500 | $ 5000 | $ 10000 | $ 5000 | $ 7500 | $ 5000 |
+| Backend Functionality | $ 2500 | $ 5000 | $ 20000 | $ 10000 | $ 15000 | $ 15000 |
+| App | $ 5000 | $ 7500 | $ 25000 | $ 7500 | $ 20000 | $ 20000 |
 
-- travel,
-
-- meetings,
-
-- computing resources,
-
-- software tools,
-
-- special testing and simulation facilities, and
-
-- administrative support.
-
-Use a separate line item for each type of resource in each activity budget.
 
 ## 3.3 Project Tracking Plan
 
