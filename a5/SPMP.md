@@ -14,16 +14,16 @@
 
 ## Revision History
 
-| **Date**     | **Description** | **Author**       | **Comments**              |
-| ------------ | --------------- | ---------------- | ------------------------- |
-| _11/21/2023_ | _Version 1.0_   | _Ryan Dotzlaw_   | _Initial Document Commit_ |
-| _11/22/2023_ | _Version 2.0_   | _Ryan Dotzlaw_   | _Completed Section 1_     |
-| _11/23/2023_ | _Version 3.0_   | _Josh Sigurdson_ | _Completed Section 4_     |
-| _11/23/2023_ | _Version 4.0_   | _Ikram Khan_     | _Added Section 3_         |
-| _11/24/2023_ | _Version 5.0_   | _Andrii Provozin_| _Added Section 5_         |
-| _11/24/2023_ | _Version 6.0_   | _Khush Patel_     | _Added Section 2_        |
-| _11/24/2023_ | _Version 6.1_   | _Khush Patel_     | _Added Section 3.2_        |
-| _11/24/2023_ | _Version 7.0_   | _Khush Patel_     | _Fixed Errors and Added Section 6_        |
+| **Date**     | **Description** | **Author**       | **Comments**                       |
+| ------------ | --------------- | ---------------- | ---------------------------------- |
+| _11/21/2023_ | _Version 1.0_   | _Ryan Dotzlaw_   | _Initial Document Commit_          |
+| _11/22/2023_ | _Version 2.0_   | _Ryan Dotzlaw_   | _Completed Section 1_              |
+| _11/23/2023_ | _Version 3.0_   | _Josh Sigurdson_ | _Completed Section 4_              |
+| _11/23/2023_ | _Version 4.0_   | _Ikram Khan_     | _Added Section 3_                  |
+| _11/24/2023_ | _Version 5.0_   | _Andrii Provozin_| _Added Section 5_                  |
+| _11/24/2023_ | _Version 6.0_   | _Khush Patel_    | _Added Section 2_                  |
+| _11/24/2023_ | _Version 6.1_   | _Khush Patel_    | _Added Section 3.2_                |
+| _11/24/2023_ | _Version 7.0_   | _Khush Patel_    | _Fixed Errors and Added Section 6_ |
 
 
 **Table of Contents**
