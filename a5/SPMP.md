@@ -473,33 +473,116 @@ The deliverable acceptance process will involve the following technical processe
 
 ## 5.1 Documentations
 
-Specify the plans for generating non-deliverable and deliverable project documentation.
+### List of Documents
+1. Project Charter
+2. Software Requirements Specification
+3. Software Project Management Plan
+4. Project Scheduling Plan (WBS, Pert, Gantt, etc.)
+5. Risk Management Plan
+6. Frontend Application Documentation
+7. Routing Server Documentation
+8. System Console Documentation
+9. Billing System Documentation
+10. Acceptance Criteria Agreement
 
-Specify the following information or object identification:
+### Controlling Template or Standard
+- IEEE 830-1998 (Software Requirements Specification)
+- IEEE 1016-1998 (Software Design Descriptions)
+- IEEE 1028-1998 (Software Reviews and Audits)
+- IEEE 1058-1998 (Software Project Management Plan)
 
-- list of documents to be prepared,
+### Document Preparation Responsibility
+- Project Charter: Entire Team
+- Software Requirements Specification: Requirements Team (Business Analysts)
+- Software Project Management Plan: Project Manager
+- Project Scheduling Plan: Project Manager
+- Risk Management Plan: Project Manager
+- Frontend Application Documentation: Development Team
+- Routing Server Documentation: Development Team
+- System Console Documentation: Development Team
+- Billing System Documentation: Development Team
+- Acceptance Criteria Agreement: Project Manager and Stakeholders
 
-- controlling template or standard for each document,
+### Document Review Responsibility
+- Project Charter: Project Manager and Stakeholders
+- Software Requirements Specification: Development Team, QA Team, and Stakeholders
+- Software Project Management Plan: Development Team and Project Manager
+- Project Scheduling Plan: Development Team and Project Manager
+- Risk Management Plan: Development Team and Project Manager
+- Frontend Application Documentation: Development Team and QA Team
+- Routing Server Documentation: Development Team and QA Team
+- System Console Documentation: Development Team and QA Team
+- Billing System Documentation: Development Team and QA Team
+- Acceptance Criteria Agreement: Project Manager and Stakeholders
 
-- who will prepare each document,
+### Due Dates
+- Project Charter: 09/28/2023
+- Software Requirements Specification: 10/13/2023
+- Software Project Management Plan: 10/24/2023
+- Project Scheduling Plan: 11/21/2023
+- Risk Management Plan: 11/21/2023
+- Frontend Application Documentation: 03/31/2024
+- Routing Server Documentation: 05/31/2024
+- System Console Documentation: 11/31/2024
+- Billing System Documentation: 03/31/2025
+- Acceptance Criteria Agreement: Before Deliverable Demo
 
-- who will review each document,
-
-- due dates for review copies,
-
-- due dates for initial baseline versions, and
-
-- a distribution list for review copies and baseline versions and quantities required
+### Distribution List
+- Project Charter: Entire Team, Stakeholders
+- Software Requirements Specification: Entire Team, QA Team, Stakeholders
+- Software Project Management Plan: Entire Team, Stakeholders
+- Project Scheduling Plan: Entire Team, Stakeholders
+- Risk Management Plan: Entire Team, Stakeholders
+- Frontend Application Documentation: Entire Team, QA Team
+- Routing Server Documentation: Entire Team, QA Team
+- System Console Documentation: Entire Team, QA Team
+- Billing System Documentation: Entire Team, QA Team
+- Acceptance Criteria Agreement: Project Manager, Customer, QA Team
 
 ## 5.2 Quality Assurance
 
-Specify or reference the quality assurance plan for the ICT project, containing the information identified in the following lines.
+### Overview
 
-Specify the plans for assuring that the ICT project fulfills its commitments to the ICT process and the ICT product as specified in the requirements specification, the ICT Project Management Plan, supporting plans and any standards, procedures, or guidelines to which the process or the product must adhere.
+The steps to guarantee that the ICT project fulfils its responsibilities as stated in the requirements specification, ICT Project Management Plan, and any applicable standards are described in this Quality Assurance (QA) plan. Procedures for quality assurance like analysis, inspection, review, audit, and assessment are included in the plan.
 
-As applicable, specify the quality assurance procedures to be used, such as analysis, inspection, review, audit, and assessment.
+### Assurance Procedures
 
-Indicate the relationship among the quality assurance, verification and validation, review, audit, configuration management, system engineering, and assessment processes.
+1. Analysis procedure: 
+   - Spot problems at the outset of development.
+      -  The QA team is in charge of conducting frequent analysis sessions.<br>
+Activities: Process evaluation, requirements and risk analysis.
+
+2. Inspection procedure: 
+   - Verify that work products follow specifications.
+      -  The QA team is in charge of overseeing inspection operations.<br>
+Activities: Defect fixing, code and document inspections.
+
+3. Review procedure: 
+   - Assess accuracy and comprehensiveness.
+      -  The QA team is in charge of planning frequent review sessions.<br>
+Activities: Customer feedback, management reviews, and peer reviews.
+
+4. Audit procedure: 
+   - Conduct an impartial analysis of actions to ensure compliance.
+      -  The QA team is in charge of doing recurring audits. <br>
+Activities: Audits of the documentation, products, and processes.
+
+5. Assessment procedure: 
+   - Assess the efficiency of the QA procedure. 
+      -  The QA team is in charge of the assessment processes. <br>
+Activities: Process evaluations, ongoing feedback, and metric analysis.
+
+### Connection to Other Procedures
+
+- Validation and verification: 
+   -  Close cooperation is required to guarantee accuracy and compliance.
+
+- Configuration management: 
+   -  Working together to ensure control and versioning.
+
+- System engineering: 
+   -  Integrating to guarantee regular compliance with specifications.
+
 
 # 6. Additional Plans
 
