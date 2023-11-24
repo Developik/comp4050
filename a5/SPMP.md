@@ -19,6 +19,7 @@
 | _11/21/2023_ | _Version 0.1_   | _Ryan Dotzlaw_   | _Initial Document Commit_ |
 | _11/22/2023_ | _Version 0.2_   | _Ryan Dotzlaw_   | _Completed Section 1_     |
 | _11/23/2023_ | _Version 0.3_   | _Josh Sigurdson_ | _Completed Section 4_     |
+| _11/23/2023_ | _Version 0.4_   | _Ikram Khan_     | _Added Section 3_         |
 
 **Table of Contents**
 
